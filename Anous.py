@@ -211,10 +211,10 @@ logo=("""\033[1;37m
 ##     ## ##   ### ##     ## ##     ## ##    ## 
 ##     ## ##    ##  #######   #######   ######  
 ----------------------------------------------
- Author    : IMTIAZ AKING
- Github    : AKING110
- Facebook  : MR.AKING.07
- Tool Name : AKING-PRO
+ Author    : A N O U S
+ Github    : PRIVATE
+ Facebook  : CHOCALTY BOY
+ Tool Name : ANOUS
  Tool type : PAID
 ----------------------------------------------
  For Haters: Tumhare Okat Nhi Meri Brabari Krny ki 🤞
@@ -816,4 +816,4 @@ def rndm(ids,passlist):
                         time.sleep(10)
                 except Exception as e:
                         pass
-menu()
+aprv()
