@@ -190,13 +190,13 @@ def menu():
     print(' [\033[1;32m2\033[97;1m] RANDOM CLONING ')
     print(' [\033[1;32m3\033[97;1m] JOIN GROUP ')
     print(' [\033[1;32m4\033[97;1m] CONTACT ADMIN')
-    print(' [\033[1;32m0\033[97;1m] \033[1;31mEXIT FROM MANI TOOL ');line()
+    print(' [\033[1;32m0\033[97;1m] \033[1;31mEXIT FROM ANOUS TOOL ');line()
     mani=input(' [•] Choose : ')
     if mani in ['1','01']:file()
     elif mani in ['2','02']:pak()
     elif mani in ['3','03']: group()
     elif mani in ['4','04']:admin()
-    elif mani in ['0','00']:os.system('xdg-open https://www.facebook.com/profile.php?id=100003054696287');line();print('[•] Thanks For Use\n[•] See You Again ');exit()
+    elif mani in ['0','00']:os.system('xdg-open https://www.facebook.com/profile.php?id=100090148321925');line();print('[•] Thanks For Use\n[•] See You Again ');exit()
     else:
         line();print('\033[1;33m [•]\033[1;31m Selected Wrong Option ');time.sleep(2);menu()
 
@@ -205,13 +205,13 @@ def menu():
 def group():
     clear()
     print(' [\033[1;32m1\033[97;1m] Join WhatsApp Group')
-    print(' [\033[1;32m2\033[97;1m] Join Facebook Group')
+    print(' [\033[1;32m2\033[97;1m] Join Facebook ID')
     print(' [\033[1;32m0\033[97;1m] \033[1;31mBack Main Menu');line()
     mani=input(' [•] Choose : ')
     if mani == '1':
         os.system('xdg-open https://chat.whatsapp.com/B5IVtFJli4l79f2i9ZYDsn');menu()
     if mani == '2':
-        os.system('xdg-open https://facebook.com/groups/1245912839659325/');menu()
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100090148321925');menu()
     if mani == '0':
         menu()
     else:
@@ -226,7 +226,7 @@ def admin():
     print(' [\033[1;32m0\033[97;1m] \033[1;31mBack Main Menu');line()
     mani=input(' [•] \033[1;32mChoose : ')
     if mani == '1':
-        os.system('xdg-open https://wa.me/+923187061605');menu()
+        os.system('xdg-open https://wa.me/+92318706165');menu()
     if mani == '2':
         os.system('xdg-open https://www.facebook.com/profile.php?id=100000569141187&mibextid=ZbWKwL');menu()
     if mani == '0':
