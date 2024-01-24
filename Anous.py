@@ -777,4 +777,4 @@ class main_crack():
                                 DANGERworld.submit(self.methodD, uid, name, pwx)
                    except:pass
             result(oks,cps)              
-danger_menu()
+            menu()
