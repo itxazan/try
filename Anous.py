@@ -200,43 +200,25 @@ def xi():
         print("Don't Bypass ")
         sys.exit()
    
-def aprv():
-    global km
-    r=requests.get(km).text
-    k=getKey()
-    if k in r:
-        main__manu()
-        print("\033[1;92mYour Token is successfully Approved\33[1;37m")
-    else:
-                os.system('clear')
-                print(logo)
-                print('\033[1;32m  Your Key Is Not Approved')
-                print('\033[1;37m----------------------------------------------')               
-                print(f" Your Key: {k}")
-                print('\033[1;37m----------------------------------------------')                
-                input('\033[1;37m[Press Enter]')
-                os.system("xdg-open https://wa.me/+923439635677?text={k}")
-                aprv()
-                sys.exit()
-                
 
 
-logo=(""" \033[1;37m ###    ##    ##  #######  ##     ##  ######  
-  \033[1;31m## ##   ###   ## ##     ## ##     ## ##    ## 
-  \033[1;33m ##   ##  ####  ## ##     ## ##     ## ##       
-  \033[1;36m##     ## ## ## ## ##     ## ##     ##  ######  
-  \033[1;30m ######### ##  #### ##     ## ##     ##       ## 
-   \033[1;32m ##     ## ##   ### ##     ## ##     ## ##    ## 
-    \033[1;34m ##     ## ##    ##  #######   #######   ######  
-\x1b[1;97m ---------------------------------------------
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Owner   :  ANOUS
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Facebook:  CHOCOLTY BOY
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Status  :  ...
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Tool    :  MIX
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Version : \x1b[1;92m0.6
-\x1b[1;97m ----------------------------------------------
-\x1b[1;97m Please Free User WP Mai Msg Na kary Sorry Tang Na karna
-\033[1;37m==================================================== """  )
+logo=("""\033[1;37m
+   ###    ##    ##  #######  ##     ##  ######  
+  ## ##   ###   ## ##     ## ##     ## ##    ## 
+ ##   ##  ####  ## ##     ## ##     ## ##       
+##     ## ## ## ## ##     ## ##     ##  ######  
+######### ##  #### ##     ## ##     ##       ## 
+##     ## ##   ### ##     ## ##     ## ##    ## 
+##     ## ##    ##  #######   #######   ######  
+----------------------------------------------
+ Author    : IMTIAZ AKING
+ Github    : AKING110
+ Facebook  : MR.AKING.07
+ Tool Name : AKING-PRO
+ Tool type : PAID
+----------------------------------------------
+ For Haters: Tumhare Okat Nhi Meri Brabari Krny ki 🤞
+\033[1;37m----------------------------------------------""")
 
 loop=0
 oks=[]
@@ -834,4 +816,4 @@ def rndm(ids,passlist):
                         time.sleep(10)
                 except Exception as e:
                         pass
-aprv()
+menu()
