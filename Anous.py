@@ -651,7 +651,7 @@ def freeq(uid,pwx,tl):
             "flow":"login_no_pain",
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'authority': 'p.facebook.com',
+            header_freefb = {'authority': 'p.facebook.com',
             'method': 'GET',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'accept-language': 'en-US,en;q=0.9',
