@@ -420,8 +420,7 @@ def rcrack1(uid,pwx,tl):
     'cache-control': 'private, no-cache, no-store, must-revalidate',
     'x-fb-request-id': 'AVkvp5xaRmJlvLSVh6yZcZO',
     'x-fb-trace-id': 'ECKbEwu+6l/',
-    'x-fb-rev': '1007202889'
-    'x-fb-debug': '38MdzEKtayv2w3Tf2jKDeBqx0OuKSOW/XE2RLHVCyttv36RP9rNVPsp3nIGRjfGpzl9PnzoM8QEZfZq45nM3Yw==',
+    'x-fb-rev': '1007202889',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
